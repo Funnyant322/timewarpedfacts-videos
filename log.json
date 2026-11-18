@@ -1,14 +1,50 @@
 [
-  {"number": 1, "post_date": "2026-11-19", "format": "A", "file": "videos/001_break_your_sense_of_time.mp4",
-   "title": "History Facts That Will Break Your Sense of Time",
-   "facts": ["Cleopatra closer to Moon landing than Great Pyramid", "Oxford older than the Aztec Empire", "Woolly mammoths alive while the Great Pyramid was built", "France's last guillotine execution 1977 (Star Wars year)", "Nintendo founded a year after Jack the Ripper"],
-   "music": "01_eerie_piano_phonk.mp3"},
-  {"number": 2, "post_date": "2026-11-20", "format": "A", "file": "videos/002_existed_at_the_same_time.mp4",
-   "title": "Things That Existed at the Same Time (The Last One Is Insane)",
-   "facts": ["Harvard older than calculus", "Real photographs of samurai", "Ottoman Empire still existed when the Wright brothers flew", "Lincoln and Darwin born the same day", "US paid a Civil War pension until 2020"],
-   "music": "02_music_box_cello.mp3"},
-  {"number": 3, "post_date": "2026-11-21", "format": "A", "file": "videos/003_t_rex_closer_to_you.mp4",
-   "title": "A T. Rex Lived Closer to You Than to a Stegosaurus",
-   "facts": ["T. rex closer in time to us than to Stegosaurus", "Shark family older than trees", "Last Tasmanian tiger died 1936 and was filmed", "Roman Empire remnant stood when the printing press was invented", "Betty White born before sliced bread"],
-   "music": "unknown (made before this log)"}
+ {
+  "number": 1,
+  "post_date": "2026-11-19",
+  "format": "A",
+  "file": "videos/001_break_your_sense_of_time.mp4",
+  "title": "History Facts That Will Break Your Sense of Time",
+  "facts": [
+   "Cleopatra closer to Moon landing than Great Pyramid",
+   "Oxford older than the Aztec Empire",
+   "Woolly mammoths alive while the Great Pyramid was built",
+   "France's last guillotine execution 1977 (Star Wars year)",
+   "Nintendo founded a year after Jack the Ripper"
+  ],
+  "music": "01_eerie_piano_phonk.mp3",
+  "note": "rebuilt in the cloud from the original ElevenLabs narration, images and music (18 Nov 2026)"
+ },
+ {
+  "number": 2,
+  "post_date": "2026-11-20",
+  "format": "A",
+  "file": "videos/002_existed_at_the_same_time.mp4",
+  "title": "Things That Existed at the Same Time (The Last One Is Insane)",
+  "facts": [
+   "Harvard older than calculus",
+   "Real photographs of samurai",
+   "Ottoman Empire still existed when the Wright brothers flew",
+   "Lincoln and Darwin born the same day",
+   "US paid a Civil War pension until 2020"
+  ],
+  "music": "02_music_box_cello.mp3",
+  "note": "rebuilt in the cloud from the original ElevenLabs narration, images and music (18 Nov 2026)"
+ },
+ {
+  "number": 3,
+  "post_date": "2026-11-21",
+  "format": "A",
+  "file": "videos/003_t_rex_closer_to_you.mp4",
+  "title": "A T. Rex Lived Closer to You Than to a Stegosaurus",
+  "facts": [
+   "T. rex closer in time to us than to Stegosaurus",
+   "Shark family older than trees",
+   "Last Tasmanian tiger died 1936 and was filmed",
+   "Roman Empire remnant stood when the printing press was invented",
+   "Betty White born before sliced bread"
+  ],
+  "music": "01_eerie_piano_phonk.mp3",
+  "note": "rebuilt in the cloud from the original ElevenLabs narration, images and music (18 Nov 2026)"
+ }
 ]

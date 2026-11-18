@@ -1,0 +1,71 @@
+{
+ "out": "../videos/003_t_rex_closer_to_you.mp4",
+ "vo": "../work/s03/vo.mp3",
+ "words": "../work/s03/words.json",
+ "music": "../music/01_eerie_piano_phonk.mp3",
+ "music_db": -20,
+ "loop_tail": 0.7,
+ "segments": [
+  {
+   "image": "../work/s03/hook.png",
+   "text": "These facts sound fake, but every one is true",
+   "cue": "These facts sound",
+   "sub": "The last one is unbelievable..."
+  },
+  {
+   "image": "../work/s03/trex.png",
+   "text": "A T. rex lived closer in time to you than to a Stegosaurus...",
+   "cue": "A T rex"
+  },
+  {
+   "image": "../work/s03/stego.png",
+   "text": "A T. rex lived closer in time to you than to a Stegosaurus...",
+   "cue": "a Stegosaurus"
+  },
+  {
+   "image": "../work/s03/shark.png",
+   "text": "The shark family is older than trees...",
+   "cue": "The shark family"
+  },
+  {
+   "image": "../work/s03/trees.png",
+   "text": "The shark family is older than trees...",
+   "cue": "older than trees"
+  },
+  {
+   "image": "../work/s03/tiger_forest.png",
+   "text": "The last Tasmanian tiger died in 1936, and it was caught on film...",
+   "cue": "The last Tasmanian"
+  },
+  {
+   "image": "../work/s03/tiger_film.png",
+   "text": "The last Tasmanian tiger died in 1936, and it was caught on film...",
+   "cue": "caught on film"
+  },
+  {
+   "image": "../work/s03/constantinople.png",
+   "text": "What was left of the Roman Empire still stood when the printing press was invented...",
+   "cue": "What was left"
+  },
+  {
+   "image": "../work/s03/press.png",
+   "text": "What was left of the Roman Empire still stood when the printing press was invented...",
+   "cue": "printing press"
+  },
+  {
+   "image": "../work/s03/street1922.png",
+   "text": "Betty White was born before sliced bread was ever sold...",
+   "cue": "And Betty White"
+  },
+  {
+   "image": "../work/s03/bakery.png",
+   "text": "Betty White was born before sliced bread was ever sold...",
+   "cue": "sliced bread"
+  },
+  {
+   "image": "../work/s03/hook.png",
+   "text": "Follow for more history that breaks your brain.",
+   "cue": "Follow for more"
+  }
+ ]
+}

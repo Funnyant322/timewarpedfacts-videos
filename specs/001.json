@@ -1,0 +1,71 @@
+{
+ "out": "../videos/001_break_your_sense_of_time.mp4",
+ "vo": "../work/s01/vo.mp3",
+ "words": "../work/s01/words.json",
+ "music": "../music/01_eerie_piano_phonk.mp3",
+ "music_db": -20,
+ "loop_tail": 0.7,
+ "segments": [
+  {
+   "image": "../work/s01/hook.png",
+   "text": "History facts that will break your sense of time",
+   "cue": "These history facts",
+   "sub": "The last one is insane..."
+  },
+  {
+   "image": "../work/s01/cleo.png",
+   "text": "Cleopatra lived closer to the Moon landing than to the Great Pyramid...",
+   "cue": "Cleopatra lived"
+  },
+  {
+   "image": "../work/s01/moon.png",
+   "text": "Cleopatra lived closer to the Moon landing than to the Great Pyramid...",
+   "cue": "than to the building"
+  },
+  {
+   "image": "../work/s01/oxford.png",
+   "text": "Oxford University is older than the Aztec Empire...",
+   "cue": "Oxford University"
+  },
+  {
+   "image": "../work/s01/aztec.png",
+   "text": "Oxford University is older than the Aztec Empire...",
+   "cue": "the Aztec Empire"
+  },
+  {
+   "image": "../work/s01/mammoths.png",
+   "text": "Woolly mammoths were alive while the Great Pyramid was being built...",
+   "cue": "Woolly mammoths"
+  },
+  {
+   "image": "../work/s01/pyramid.png",
+   "text": "Woolly mammoths were alive while the Great Pyramid was being built...",
+   "cue": "while the Great"
+  },
+  {
+   "image": "../work/s01/guillotine.png",
+   "text": "France's last guillotine execution was in 1977, the year Star Wars came out...",
+   "cue": "France's last"
+  },
+  {
+   "image": "../work/s01/theater.png",
+   "text": "France's last guillotine execution was in 1977, the year Star Wars came out...",
+   "cue": "the same year Star"
+  },
+  {
+   "image": "../work/s01/kyoto.png",
+   "text": "Nintendo was founded one year after the Jack the Ripper murders...",
+   "cue": "And Nintendo"
+  },
+  {
+   "image": "../work/s01/london.png",
+   "text": "Nintendo was founded one year after the Jack the Ripper murders...",
+   "cue": "Jack the Ripper"
+  },
+  {
+   "image": "../work/s01/hook.png",
+   "text": "Follow for more history that breaks your brain.",
+   "cue": "Follow for more"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "out": "../videos/002_existed_at_the_same_time.mp4",
+ "vo": "../work/s02/vo.mp3",
+ "words": "../work/s02/words.json",
+ "music": "../music/02_music_box_cello.mp3",
+ "music_db": -20,
+ "loop_tail": 0.7,
+ "segments": [
+  {
+   "image": "../work/s02/hook.png",
+   "text": "Things that existed at the same time",
+   "cue": "These things existed",
+   "sub": "Your brain won't accept the last one..."
+  },
+  {
+   "image": "../work/s02/college.png",
+   "text": "Harvard University is older than calculus...",
+   "cue": "Harvard University"
+  },
+  {
+   "image": "../work/s02/scholar.png",
+   "text": "Harvard University is older than calculus...",
+   "cue": "older than calculus"
+  },
+  {
+   "image": "../work/s02/photographer.png",
+   "text": "There are real photographs of actual samurai...",
+   "cue": "There are real"
+  },
+  {
+   "image": "../work/s02/samurai_photo.png",
+   "text": "There are real photographs of actual samurai...",
+   "cue": "actual samurai"
+  },
+  {
+   "image": "../work/s02/istanbul.png",
+   "text": "The Ottoman Empire still existed when the Wright brothers first flew...",
+   "cue": "The Ottoman Empire"
+  },
+  {
+   "image": "../work/s02/wright.png",
+   "text": "The Ottoman Empire still existed when the Wright brothers first flew...",
+   "cue": "Wright brothers"
+  },
+  {
+   "image": "../work/s02/cabin.png",
+   "text": "Abraham Lincoln and Charles Darwin were born on the exact same day...",
+   "cue": "Abraham Lincoln"
+  },
+  {
+   "image": "../work/s02/manor.png",
+   "text": "Abraham Lincoln and Charles Darwin were born on the exact same day...",
+   "cue": "Charles Darwin"
+  },
+  {
+   "image": "../work/s02/camp.png",
+   "text": "The US government was still paying a Civil War pension in 2020...",
+   "cue": "And the US government"
+  },
+  {
+   "image": "../work/s02/widow.png",
+   "text": "The US government was still paying a Civil War pension in 2020...",
+   "cue": "pension in"
+  },
+  {
+   "image": "../work/s02/hook.png",
+   "text": "Follow for more history that breaks your brain.",
+   "cue": "Follow for more"
+  }
+ ]
+}
