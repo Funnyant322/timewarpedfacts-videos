@@ -1,0 +1,46 @@
+{
+ "out": "../videos/004_fax_older_than_telephone.mp4",
+ "vo": "../work/s04/vo.mp3",
+ "words": "../work/s04/words.json",
+ "music": "../music/03_clockwork_discovery.mp3",
+ "music_db": -20,
+ "loop_tail": 0.7,
+ "segments": [
+  {
+   "image": "../work/s04/hook_cropped.png",
+   "text": "The fax machine is older than the telephone",
+   "sub": "And it's not even close...",
+   "cue": "The fax machine is"
+  },
+  {
+   "image": "../work/s04/bain.png",
+   "text": "1843: Alexander Bain patents a machine that sends images down a telegraph wire...",
+   "cue": "In 1843"
+  },
+  {
+   "image": "../work/s04/telephone.png",
+   "text": "The telephone? Bell patented it 33 years later...",
+   "cue": "The telephone"
+  },
+  {
+   "image": "../work/s04/caselli.png",
+   "text": "By 1865, a real fax service was running between Paris and Lyon...",
+   "cue": "By 1865"
+  },
+  {
+   "image": "../work/s04/line.png",
+   "text": "By 1865, a real fax service was running between Paris and Lyon...",
+   "cue": "sending handwriting"
+  },
+  {
+   "image": "../work/s04/civilwar.png",
+   "text": "...the same year the American Civil War ended.",
+   "cue": "That's the same year"
+  },
+  {
+   "image": "../work/s04/hook_cropped.png",
+   "text": "Follow for more history that breaks your brain.",
+   "cue": "Follow for more"
+  }
+ ]
+}

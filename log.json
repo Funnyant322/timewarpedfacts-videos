@@ -52,5 +52,20 @@
   "note": "rebuilt in the cloud from the original ElevenLabs narration, images and music (18 Nov 2026)",
   "metricool_planner_url": "https://app.metricool.com/planner/calendar?blogId=8203057&openWithPostUuid=-5341064879160604003",
   "post_time": "10:00 Asia/Singapore"
+ },
+ {
+  "number": 4,
+  "post_date": "2026-11-19",
+  "post_time": "20:00 Asia/Singapore",
+  "format": "C",
+  "file": "videos/004_fax_older_than_telephone.mp4",
+  "title": "The Fax Machine Is Older Than the Telephone",
+  "facts": [
+   "Bain's fax patent 1843 vs Bell's telephone patent 1876",
+   "Caselli's commercial Paris-Lyon fax service 1865, the year the US Civil War ended"
+  ],
+  "music": "03_clockwork_discovery.mp3",
+  "flow_id": "aItC9estMe1xh8EqOKDO",
+  "note": "extra Short requested by David on 19 Nov"
  }
 ]
