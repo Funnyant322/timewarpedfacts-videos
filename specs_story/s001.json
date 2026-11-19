@@ -1,0 +1,12 @@
+{"out": "../videos/s001_microwave_invented_by_accident.mp4", "vo": "../work/n001/vo.mp3", "words": "../work/n001/words.json",
+ "music": "../music/03_clockwork_discovery.mp3", "music_db": -24, "tail": 0.7,
+ "clips": [
+  {"video": "../work/n001/v1.mp4", "cue": "In 1945"},
+  {"video": "../work/n001/v2.mp4", "cue": "when he felt"},
+  {"video": "../work/n001/v3.mp4", "cue": "Most people"},
+  {"video": "../work/n001/v4.mp4", "cue": "But Percy"},
+  {"video": "../work/n001/v5.mp4", "cue": "So he tried"},
+  {"video": "../work/n001/v6.mp4", "cue": "and it exploded"},
+  {"video": "../work/n001/v7.mp4", "cue": "Two years later"},
+  {"video": "../work/n001/v8.mp4", "cue": "and cost five"}
+ ]}
