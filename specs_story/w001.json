@@ -1,0 +1,17 @@
+{
+  "out": "../videos/w001_what_if_you_swallow_gum.mp4",
+  "vo": "../work/w001/vo.mp3",
+  "words": "../work/w001/words.json",
+  "music": "../music/03_clockwork_discovery.mp3",
+  "music_db": -24,
+  "tail": 0.7,
+  "clips": [
+    {"video": "../work/w001/v1.mp4", "cue": "What happens"},
+    {"video": "../work/w001/v2.mp4", "cue": "Everyone says"},
+    {"video": "../work/w001/v3.mp4", "cue": "Your stomach breaks"},
+    {"video": "../work/w001/v4.mp4", "cue": "So your gut"},
+    {"video": "../work/w001/v5.mp4", "cue": "But swallow"},
+    {"video": "../work/w001/v6.mp4", "cue": "One five-year-old"},
+    {"video": "../work/w001/v7.mp4", "cue": "So one piece"}
+  ]
+}
