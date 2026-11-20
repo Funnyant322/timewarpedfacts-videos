@@ -1,0 +1,14 @@
+{"out":"group_chat_pt1","voice":"gc_vo.mp3","words":"gc_words.json","end":37.6,
+ "title":["Every Type of Person","in a Group Chat","Explained pt 1"],
+ "scenes":[{"img":"cafe_waiting","t":0,"focus":[0.35,0.5],"zoom":[1.0,1.08]},
+           {"img":"bedroom","t":12.5,"focus":[0.3,0.55],"zoom":[1.02,1.12]},
+           {"img":"bus","t":19.4,"focus":[0.6,0.55],"zoom":[1.0,1.12]},
+           {"img":"bedroom","t":28.6,"focus":[0.35,0.5],"zoom":[1.12,1.2]},
+           {"img":"cafe_arrival","t":32.4,"focus":[0.75,0.5],"zoom":[1.0,1.15]}],
+ "overlays":[
+  {"type":"phone","start":8.2,"end":19.3,"group":true,"me":"Sam","title":"The Squad","title_av":"Jay","clock":"6:12",
+   "msgs":[{"t":9.4,"from":"Sam","text":"who's free saturday?"},{"t":11.0,"from":"Maya","text":"me!!"},{"t":11.5,"from":"Jay","text":"im in"}],"seen":14.2},
+  {"type":"banner","start":20.9,"end":23.9,"who":"Leo","app":"Instagram","text":"Leo added to their story"},
+  {"type":"phone","start":29.0,"end":32.4,"group":true,"me":"Sam","title":"The Squad","title_av":"Jay",
+   "msgs":[{"t":0,"from":"Sam","text":"who's free saturday?"},{"t":0,"from":"Maya","text":"me!!"},{"t":0,"from":"Jay","text":"im in"},
+           {"t":29.2,"note":"Sunday 11:48 PM","clock":"11:48"},{"t":30.4,"from":"Leo","text":"wait whats saturday??","clock":"11:48"}]}]}

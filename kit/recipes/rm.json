@@ -1,0 +1,11 @@
+{"out":"roommate_pt1","voice":"rm_vo.mp3","words":"rm_words.json","end":32.0,
+ "title":["Every Type of Roommate","Explained pt 1"],
+ "scenes":[{"img":"kitchen_dish_tower","t":0,"focus":[0.5,0.5],"zoom":[1.0,1.1]},
+           {"img":"living_leo_couch","t":6.1,"focus":[0.5,0.5],"zoom":[1.0,1.08]},
+           {"img":"kitchen_dish_tower","t":12.6,"focus":[0.42,0.5],"tilt":[0.8,0.2],"zoom":[1.5,1.5]},
+           {"img":"living_leo_couch","t":16.7,"focus":[0.65,0.45],"zoom":[1.08,1.2]},
+           {"img":"kitchen_leo_cereal_pot","t":22.9,"focus":[0.6,0.5],"zoom":[1.0,1.15]},
+           {"img":"kitchen_dish_tower","t":29.6,"focus":[0.7,0.5],"zoom":[1.1,1.2]}],
+ "overlays":[
+  {"type":"plates","start":6.2,"end":12.6,"x":0.22,"y":0.82,"times":[6.8,8.4,11.1]},
+  {"type":"bubble","start":19.2,"end":22.9,"text":"I'm soaking them.","x":0.4,"y":0.18,"tail":[0.6,0.35]}]}

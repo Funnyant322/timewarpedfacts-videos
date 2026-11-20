@@ -1,0 +1,15 @@
+{"out":"coworker_pt1","voice":"cw_vo.mp3","words":"cw_words.json","end":34.2,
+ "title":["Every Type of Coworker","Explained pt 1"],
+ "extra_dings":[14.4],
+ "scenes":[{"img":"office_sam_desk","t":0,"focus":[0.5,0.5],"zoom":[1.0,1.08]},
+           {"img":"office_leo_enter","t":12.3,"focus":[0.45,0.5],"zoom":[1.0,1.15]},
+           {"img":"office_sam_desk","t":15.3,"focus":[0.55,0.5],"zoom":[1.05,1.12]},
+           {"img":"office_leo_enter","t":25.3,"focus":[0.45,0.45],"zoom":[1.1,1.2]},
+           {"img":"office_sam_desk","t":30.2,"focus":[0.55,0.45],"zoom":[1.15,1.3]}],
+ "overlays":[
+  {"type":"inbox","start":7.2,"end":12.3,"side":"left","mails":[{"t":8.3,"from":"Boss","subj":"Office closed Friday"}]},
+  {"type":"inbox","start":15.4,"end":25.3,"side":"left","flood":[23.4,25.3],
+   "mails":[{"t":0,"from":"Boss","subj":"Office closed Friday"},{"t":0,"from":"Leo","subj":"RE: Office closed Friday - Thanks!"},
+            {"t":16.2,"from":"Maya","subj":"RE: RE: Office closed Friday"},{"t":16.7,"from":"Jay","subj":"RE: RE: RE: Office closed Friday"},
+            {"t":19.8,"from":"Maya","subj":"please stop replying all"},{"t":22.6,"from":"Jay","subj":"RE: please stop replying all"}]},
+  {"type":"bubble","start":27.3,"end":30.2,"text":"ugh my inbox is full!!","x":0.5,"y":0.15,"tail":[0.47,0.33]}]}
