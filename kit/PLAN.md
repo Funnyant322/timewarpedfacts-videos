@@ -36,3 +36,7 @@ Elevator man, wolf/goat/cabbage, two guards (liar/truth-teller), 3 switches 1 bu
 - Make new scenes when they make the video better; reuse only when it doesn't hurt quality
 - Camera: start each scene showing the whole picture, then zoom in on whoever/whatever is being talked about whenever it makes the video more engaging; never leave important parts cut off
 - Paused: Roommate and Coworker (pt1 made, not continued)
+
+## Layout + length update (20 Nov 2026)
+- Bigger picture: scene area is now 1080x1350 (4:5) instead of 16:9, with the title over the top of the picture, like the things_explained reference. Generate new scenes at aspect_ratio 4:5.
+- Make videos longer from Part 3 onwards (more types per part, aim about 50-60s).

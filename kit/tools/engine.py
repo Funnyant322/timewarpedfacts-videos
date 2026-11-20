@@ -6,16 +6,17 @@ W, H, FPS = 1080, 1920, 30
 G = "/usr/share/fonts/truetype/google-fonts/ofl/"
 def mont(size, style="Bold"):
     f = ImageFont.truetype(G + "montserrat/Montserrat[wght].ttf", size); f.set_variation_by_name(style); return f
-SUB_F = ImageFont.truetype((glob.glob(G + "comicrelief/*Bold*.ttf") or glob.glob(G + "comicrelief/*.ttf"))[0], 40)
+SUB_F = ImageFont.truetype((glob.glob(G + "comicrelief/*Bold*.ttf") or glob.glob(G + "comicrelief/*.ttf"))[0], 52)
 BUB_F = ImageFont.truetype((glob.glob(G + "comicrelief/*Bold*.ttf") or glob.glob(G + "comicrelief/*.ttf"))[0], 34)
 TITLE_F, FOOT_F = mont(58, "Bold"), mont(44, "Bold")
 PH_F, PH_SMALL, PH_NAME, PH_TINY = mont(25, "SemiBold"), mont(20, "Medium"), mont(25, "Bold"), mont(19, "SemiBold")
 PH_F2 = mont(21, "SemiBold"); IN_NAME, IN_SUBJ = mont(28, "Bold"), mont(22, "Medium")
-SX, SY, SW, SH = 0, 640, 1080, 608
+SX, SY, SW, SH = 0, 285, 1080, 1350
+TALL = True
 AV = {"Sam": (60, 170, 150), "Leo": (232, 140, 50), "Maya": (200, 90, 160), "Jay": (90, 120, 220), "Boss": (90, 90, 90), "You": (10, 132, 255)}
 
 def trim(im):
-    """Remove a plain light border/frame some generated pictures have, then fit to 16:9."""
+    """Remove a plain light border/frame, then fit to the scene area shape."""
     import numpy as np
     a = np.array(im).astype(int); c = a[2, 2]
     corners = [a[2, 2], a[2, -3], a[-3, 2], a[-3, -3]]
@@ -26,7 +27,7 @@ def trim(im):
             x0, x1, y0, y1 = cols.min() + 4, cols.max() - 4, rows.min() + 4, rows.max() - 4
             if (x1 - x0) > im.width * 0.6 and (y1 - y0) > im.height * 0.6:
                 im = im.crop((x0, y0, x1, y1))
-    w, h = im.size; target = 16 / 9
+    w, h = im.size; target = SW / SH
     if w / h > target + 0.01:
         # too wide: keep everything, extend the top/bottom edge colours instead of cutting the sides
         nh = int(w / target); pad = nh - h; top = pad // 2
@@ -191,7 +192,7 @@ class Video:
                 sc_ = ov.get("scale", 0.92); o = o.resize((int(o.width * sc_), int(o.height * sc_)), Image.LANCZOS)
                 off = int((1 - ease(app)) * 700)
                 x = int(ov.get("x", SW - o.width - 70)) if ov.get("side", "right") == "right" else 70
-                crop.paste(o, (x, 30 + off), o)
+                crop.paste(o, (x, 300 + off), o)
             elif ov["type"] == "bubble": self.bubble(ov, t, crop)
             elif ov["type"] == "plates": self.plates(ov, t, crop)
             elif ov["type"] == "banner": self.banner(ov, t, crop)
@@ -202,19 +203,19 @@ class Video:
                 dd.rounded_rectangle((cx - tw / 2 - 30, cy - 50, cx + tw / 2 + 30, cy + 50), 14, fill="white", outline="black", width=5)
                 if pop >= 1: dd.text((cx, cy), ov["text"], font=TITLE_F, fill="black", anchor="mm")
         c.paste(crop, (SX, SY)); d = ImageDraw.Draw(c)
-        lines = R["title"]; top = 560 - len(lines) * 82
+        lines = R["title"]; top = SY + 90
         for i, line in enumerate(lines):
             tw = d.textlength(line, font=TITLE_F); y = top + i * 80
             d.rounded_rectangle(((W - tw) / 2 - 22, y - 37, (W + tw) / 2 + 22, y + 39), 10, fill="white")
             d.text((W / 2, y), line, font=TITLE_F, fill="black", anchor="mm")
         for i, line in enumerate(R.get("footer", ["Follow for", "Part 2"])):
-            tw = d.textlength(line, font=FOOT_F); y = 1380 + i * 66
+            tw = d.textlength(line, font=FOOT_F); y = SY + SH - 230 + i * 66
             d.rounded_rectangle(((W - tw) / 2 - 18, y - 30, (W + tw) / 2 + 18, y + 32), 10, fill="white")
             d.text((W / 2, y), line, font=FOOT_F, fill="black", anchor="mm")
         for chn in self.chunks:
             if chn[0]["start"] - 0.05 <= t <= chn[-1]["end"] + 0.25:
                 txt = " ".join(w["text"] for w in chn).replace("…", "...").lower()
-                d.text((W / 2, SY + SH - 44), txt, font=SUB_F, fill="white", anchor="mm", stroke_width=5, stroke_fill="black")
+                d.text((W / 2, SY + SH * 0.73), txt, font=SUB_F, fill="white", anchor="mm", stroke_width=5, stroke_fill="black")
                 break
         return c
 

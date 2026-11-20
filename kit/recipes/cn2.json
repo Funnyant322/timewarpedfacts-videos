@@ -1,14 +1,148 @@
-{"out":"cinema_pt2","voice":"cn2_vo.mp3","words":"cn2_words.json","end":33.7,
- "title":["Every Type of Person","at the Cinema","Explained pt 2"],"footer":["Follow for","Part 3"],
- "scenes":[{"img":"cinema_quiet","t":0,"focus":[0.5,0.5],"zoom":[1.0,1.06]},
-           {"img":"cinema_quiet","t":8.7,"focus":[0.4,0.5],"zoom":[1.1,1.25]},
-           {"img":"cn2_sun","t":14.3,"focus":[0.5,0.5],"zoom":[1.0,1.08]},
-           {"img":"cn2_sun","t":18.6,"focus":[0.35,0.5],"zoom":[1.2,1.4]},
-           {"img":"cn2_behind","t":20.4,"focus":[0.5,0.5],"zoom":[1.0,1.08]},
-           {"img":"cn2_sun","t":24.7,"focus":[0.65,0.45],"zoom":[1.15,1.3]},
-           {"img":"cn2_behind","t":27.0,"focus":[0.5,0.3],"zoom":[1.2,1.35]},
-           {"img":"cn2_sun","t":30.8,"focus":[0.5,0.5],"zoom":[1.0,1.05]}],
- "overlays":[
-  {"type":"phone","start":21.0,"end":24.7,"title":"Mum","title_av":"Maya","me":"Leo","clock":"8:47",
-   "msgs":[{"t":21.2,"from":"Leo","text":"movie starting"},{"t":22.9,"from":"Mum","text":"ok"},{"t":24.0,"from":"Leo","text":"ok"}]}],
- "sfx_events":[{"t":15.4,"kind":"cheer","gain":0.6}]}
+{
+ "out": "cinema_pt2",
+ "voice": "cn2_vo.mp3",
+ "words": "cn2_words.json",
+ "end": 33.7,
+ "title": [
+  "Every Type of Person",
+  "at the Cinema",
+  "Explained pt 2"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 3"
+ ],
+ "scenes": [
+  {
+   "img": "cinema_quiet",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 8.7,
+   "focus": [
+    0.42,
+    0.5
+   ],
+   "zoom": [
+    1.3,
+    1.45
+   ]
+  },
+  {
+   "img": "cn2_sun",
+   "t": 14.3,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn2_sun",
+   "t": 18.6,
+   "focus": [
+    0.42,
+    0.5
+   ],
+   "zoom": [
+    1.3,
+    1.5
+   ]
+  },
+  {
+   "img": "cn2_behind",
+   "t": 20.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn2_sun",
+   "t": 24.7,
+   "focus": [
+    0.62,
+    0.45
+   ],
+   "zoom": [
+    1.3,
+    1.45
+   ]
+  },
+  {
+   "img": "cn2_behind",
+   "t": 27.0,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.3,
+    1.45
+   ]
+  },
+  {
+   "img": "cn2_sun",
+   "t": 30.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "phone",
+   "start": 21.0,
+   "end": 24.7,
+   "title": "Mum",
+   "title_av": "Maya",
+   "me": "Leo",
+   "clock": "8:47",
+   "msgs": [
+    {
+     "t": 21.2,
+     "from": "Leo",
+     "text": "movie starting"
+    },
+    {
+     "t": 22.9,
+     "from": "Mum",
+     "text": "ok"
+    },
+    {
+     "t": 24.0,
+     "from": "Leo",
+     "text": "ok"
+    }
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 15.4,
+   "kind": "cheer",
+   "gain": 0.6
+  }
+ ]
+}

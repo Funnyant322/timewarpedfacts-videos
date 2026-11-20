@@ -1,14 +1,145 @@
-{"out":"friend_pt2","voice":"fr2_vo.mp3","words":"fr2_words.json","end":33.0,
- "title":["Every Type of Friend","Explained pt 2"],"footer":["Follow for","Part 3"],
- "scenes":[{"img":"fr2_feast","t":0,"focus":[0.5,0.5],"zoom":[1.0,1.06]},
-           {"img":"fr2_feast","t":9.3,"focus":[0.4,0.5],"zoom":[1.05,1.3]},
-           {"img":"fr2_pockets","t":14.0,"focus":[0.5,0.5],"zoom":[1.0,1.06]},
-           {"img":"fr2_pockets","t":16.4,"focus":[0.25,0.45],"zoom":[1.2,1.4]},
-           {"img":"fr2_receipt","t":21.9,"focus":[0.35,0.45],"zoom":[1.0,1.15]},
-           {"img":"fr2_receipt","t":23.5,"focus":[0.55,0.6],"zoom":[1.2,1.35]},
-           {"img":"fr2_pockets","t":25.8,"focus":[0.5,0.5],"zoom":[1.0,1.08]},
-           {"img":"fr2_receipt","t":29.9,"focus":[0.5,0.5],"zoom":[1.0,1.06]}],
- "overlays":[
-  {"type":"bubble","start":18.8,"end":21.9,"text":"oh no... my wallet!","x":0.42,"y":0.13,"tail":[0.3,0.3]},
-  {"type":"bubble","start":21.9,"end":23.5,"text":"I'll pay you back, bro","x":0.33,"y":0.12,"tail":[0.27,0.27]},
-  {"type":"card","start":27.2,"end":29.9,"text":"NEXT WEEK...","y":0.5}]}
+{
+ "out": "friend_pt2",
+ "voice": "fr2_vo.mp3",
+ "words": "fr2_words.json",
+ "end": 33.0,
+ "title": [
+  "Every Type of Friend",
+  "Explained pt 2"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 3"
+ ],
+ "scenes": [
+  {
+   "img": "fr2_feast",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "fr2_feast",
+   "t": 9.3,
+   "focus": [
+    0.42,
+    0.55
+   ],
+   "zoom": [
+    1.25,
+    1.5
+   ]
+  },
+  {
+   "img": "fr2_pockets",
+   "t": 14.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "fr2_pockets",
+   "t": 16.4,
+   "focus": [
+    0.25,
+    0.5
+   ],
+   "zoom": [
+    1.4,
+    1.6
+   ]
+  },
+  {
+   "img": "fr2_receipt",
+   "t": 21.9,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "img": "fr2_receipt",
+   "t": 23.5,
+   "focus": [
+    0.35,
+    0.6
+   ],
+   "zoom": [
+    1.35,
+    1.5
+   ]
+  },
+  {
+   "img": "fr2_pockets",
+   "t": 25.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr2_receipt",
+   "t": 29.9,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "bubble",
+   "start": 18.8,
+   "end": 21.9,
+   "text": "oh no... my wallet!",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.32,
+    0.42
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 21.9,
+   "end": 23.5,
+   "text": "I'll pay you back, bro",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.3,
+    0.45
+   ]
+  },
+  {
+   "type": "card",
+   "start": 27.2,
+   "end": 29.9,
+   "text": "NEXT WEEK...",
+   "y": 0.5
+  }
+ ]
+}
