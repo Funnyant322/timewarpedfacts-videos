@@ -30,4 +30,5 @@ Elevator man, wolf/goat/cabbage, two guards (liar/truth-teller), 3 switches 1 bu
 - Flat 2D cartoon, Sam (teal t-shirt) + Leo (orange hoodie); title boxes on top, 16:9 scene middle, "Follow for Part N" bottom
 - Voice: ElevenLabs James – Husky & Engaging (EkK5I93UQWFDigLMpZcX), eleven_v4, natural pauses
 - Make new scenes when they make the video better; reuse only when it doesn't hurt quality
+- Camera: start each scene showing the whole picture, then zoom in on whoever/whatever is being talked about whenever it makes the video more engaging; never leave important parts cut off
 - Paused: Roommate and Coworker (pt1 made, not continued)
