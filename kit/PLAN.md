@@ -10,6 +10,10 @@
 7. Every Type of Student — "didn't study" but full marks, group-project ghost
 8. Every Type of Teacher — "I'll wait" teacher, homework on holidays
 
+## Posting rules
+- 4 posts a day, one part from each of 4 running series, spread through the day: 09:00, 13:00, 17:00, 21:00 (Asia/Singapore)
+- When the first 8 series are fully posted, continue through the backlog below in order (then paradoxes and riddles)
+
 ## Backlog series (good ideas for after the first 8)
 Parent, Gamer, Person at a Party, Person at the Gym, Person in a Lift, Driver, Person at a Restaurant, Online Shopper,
 Boyfriend/Girlfriend, Person at a Wedding, Person on Holiday, Neighbour, Person During an Exam, Pet Owner, Person in a Meeting,

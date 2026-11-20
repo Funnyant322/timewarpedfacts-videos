@@ -76,7 +76,24 @@ class Video:
             pop = min(1.0, (t - m["t"]) / 0.18)
             if m.get("note"):
                 d.text((pw / 2, y + 14), m["note"], font=PH_TINY, fill=(140, 140, 140), anchor="mm"); y += 34; continue
-            who, txt = m["from"], m["text"]
+            who, txt = m["from"], m.get("text", "")
+            if m.get("voice"):
+                me = who == ov.get("me")
+                if group and not me:
+                    d.text((70, y + 2), who, font=PH_TINY, fill=AV.get(who, (120, 120, 120)), anchor="lt"); y += 22
+                    d.ellipse((28, y + 8, 62, y + 42), fill=AV.get(who, (150, 150, 150)))
+                bw2, bh2 = 270, 54; x0 = (70 if group else 30) if not me else pw - 30 - bw2
+                col = (229, 229, 234) if not me else (10, 132, 255)
+                s_ = 0.6 + 0.4 * pop; cx = x0 + bw2 / 2
+                d.rounded_rectangle((cx - bw2 * s_ / 2, y, cx + bw2 * s_ / 2, y + bh2 * s_), 25, fill=col)
+                if pop >= 1:
+                    d.polygon([(x0 + 18, y + 15), (x0 + 18, y + 39), (x0 + 38, y + 27)], fill=(40, 40, 40))
+                    random.seed(11)
+                    for i in range(26):
+                        hh = random.randint(4, 18); xx = x0 + 48 + i * 6
+                        d.line((xx, y + 27 - hh, xx, y + 27 + hh), fill=(90, 90, 90), width=3)
+                    d.text((x0 + bw2 - 14, y + 27), m["voice"], font=PH_TINY, fill=(60, 60, 60), anchor="rm")
+                y += bh2 + 12; continue
             me = who == ov.get("me")
             fnt = PH_F if d.textlength(txt, font=PH_F) + 36 <= pw - 100 else PH_F2
             tw = d.textlength(txt, font=fnt); bw, bh = tw + 36, 50
@@ -178,6 +195,12 @@ class Video:
             elif ov["type"] == "bubble": self.bubble(ov, t, crop)
             elif ov["type"] == "plates": self.plates(ov, t, crop)
             elif ov["type"] == "banner": self.banner(ov, t, crop)
+            elif ov["type"] == "card":
+                dd = ImageDraw.Draw(crop); pop = min(1, (t - ov["start"]) / 0.15)
+                tw = dd.textlength(ov["text"], font=TITLE_F) * (0.8 + 0.2 * pop)
+                cx, cy = SW / 2, ov.get("y", 0.5) * SH
+                dd.rounded_rectangle((cx - tw / 2 - 30, cy - 50, cx + tw / 2 + 30, cy + 50), 14, fill="white", outline="black", width=5)
+                if pop >= 1: dd.text((cx, cy), ov["text"], font=TITLE_F, fill="black", anchor="mm")
         c.paste(crop, (SX, SY)); d = ImageDraw.Draw(c)
         lines = R["title"]; top = 560 - len(lines) * 82
         for i, line in enumerate(lines):
@@ -222,7 +245,7 @@ class Video:
             if ov["type"] in ("phone", "inbox"): add(ov["start"], wh)
             for m in ov.get("msgs", []) + ov.get("mails", []):
                 if not m.get("note"): add(m["t"], ding)
-            if ov["type"] == "bubble": add(ov["start"], pop())
+            if ov["type"] in ("bubble", "card"): add(ov["start"], pop())
             if ov["type"] == "banner": add(ov["start"], ding)
             if ov["type"] == "plates":
                 for tt in ov["times"]: add(tt, tone([520, 780], 0.2, 14, 0.2))
