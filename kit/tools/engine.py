@@ -14,6 +14,31 @@ PH_F2 = mont(21, "SemiBold"); IN_NAME, IN_SUBJ = mont(28, "Bold"), mont(22, "Med
 SX, SY, SW, SH = 0, 640, 1080, 608
 AV = {"Sam": (60, 170, 150), "Leo": (232, 140, 50), "Maya": (200, 90, 160), "Jay": (90, 120, 220), "Boss": (90, 90, 90), "You": (10, 132, 255)}
 
+def trim(im):
+    """Remove a plain light border/frame some generated pictures have, then fit to 16:9."""
+    import numpy as np
+    a = np.array(im).astype(int); c = a[2, 2]
+    corners = [a[2, 2], a[2, -3], a[-3, 2], a[-3, -3]]
+    if c.sum() > 600 and all(abs(x - c).sum() < 30 for x in corners):
+        diff = np.abs(a - c).sum(2) > 40
+        rows = np.where(diff.mean(1) > 0.5)[0]; cols = np.where(diff.mean(0) > 0.5)[0]
+        if len(rows) and len(cols):
+            x0, x1, y0, y1 = cols.min() + 4, cols.max() - 4, rows.min() + 4, rows.max() - 4
+            if (x1 - x0) > im.width * 0.6 and (y1 - y0) > im.height * 0.6:
+                im = im.crop((x0, y0, x1, y1))
+    w, h = im.size; target = 16 / 9
+    if w / h > target + 0.01:
+        # too wide: keep everything, extend the top/bottom edge colours instead of cutting the sides
+        nh = int(w / target); pad = nh - h; top = pad // 2
+        out = Image.new("RGB", (w, nh))
+        out.paste(im.crop((0, 0, w, 1)).resize((w, top)), (0, 0))
+        out.paste(im, (0, top))
+        out.paste(im.crop((0, h - 1, w, h)).resize((w, nh - top - h)), (0, top + h))
+        im = out
+    elif w / h < target - 0.01:
+        nh = int(w / target); im = im.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    return im
+
 def ease(p): return 0.5 - 0.5 * math.cos(math.pi * max(0, min(1, p)))
 
 class Video:
@@ -22,7 +47,7 @@ class Video:
         raw = [w for w in json.load(open(R["words"]))["words"] if w["type"] == "word"]
         self.words = [w for w in raw if not (w["text"].startswith("[") or w["text"].endswith("]"))]
         self.END = R.get("end", self.words[-1]["end"] + 1.0)
-        self.imgs = {s["img"]: Image.open(f"img/{s['img']}.png").convert("RGB") for s in R["scenes"]}
+        self.imgs = {s["img"]: trim(Image.open(f"img/{s['img']}.png").convert("RGB")) for s in R["scenes"]}
         chunks, cur = [], []
         for w in self.words:
             cur.append(w)
