@@ -10,6 +10,17 @@
 7. Every Type of Student — "didn't study" but full marks, group-project ghost
 8. Every Type of Teacher — "I'll wait" teacher, homework on holidays
 
+## Backlog series (good ideas for after the first 8)
+Parent, Gamer, Person at a Party, Person at the Gym, Person in a Lift, Driver, Person at a Restaurant, Online Shopper,
+Boyfriend/Girlfriend, Person at a Wedding, Person on Holiday, Neighbour, Person During an Exam, Pet Owner, Person in a Meeting,
+"I'll Start Tomorrow" person, Person at the Airport, Shopper at IKEA, Roommate (pt1 made), Coworker (pt1 made)
+
+## Paradoxes
+Crocodile, Ship of Theseus, Grandfather, Monty Hall, Birthday, Achilles and the Tortoise, Liar, Barber, Fermi, Twin, Unexpected Exam, Heap
+
+## Riddles (riddle -> 3-2-1 countdown -> answer reveal)
+Elevator man, wolf/goat/cabbage, two guards (liar/truth-teller), 3 switches 1 bulb, dead man with unopened backpack, prisoners and hats
+
 ## Later
 - Famous paradoxes, riddles, trending news explained (fact-checked, confirmed facts only)
 - Long-form: compilations of finished series in 16:9, deep dives
