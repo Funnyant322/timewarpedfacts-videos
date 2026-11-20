@@ -205,6 +205,37 @@ class Video:
                 tt = ov["flood"][0]
                 while tt < ov["flood"][1]: add(tt, ding, 0.6); tt += 0.18
         for tt in self.R.get("extra_dings", []): add(tt, ding)
+        def crinkle(dur):
+            random.seed(7); out = [0.0] * int(dur * sr); i = 0
+            while i < len(out):
+                L = random.randint(60, 400); a = random.uniform(0.1, 0.45)
+                for j in range(L):
+                    if i + j < len(out): out[i + j] += (random.random() * 2 - 1) * a * math.exp(-j / (L / 3))
+                i += L + random.randint(100, 2500)
+            return out
+        def crunch():
+            random.seed(3); out = []; prev = 0
+            for i in range(int(0.22 * sr)):
+                prev = prev * 0.6 + (random.random() * 2 - 1) * 0.4
+                out.append(prev * 0.9 * math.exp(-i / (0.05 * sr)) * (1 if random.random() > 0.3 else 0.3))
+            return out
+        def boom():
+            out = []
+            random.seed(5); prev = 0
+            for i in range(int(1.2 * sr)):
+                prev = prev * 0.985 + (random.random() * 2 - 1) * 0.06
+                out.append((prev * 3 + 0.5 * math.sin(2 * math.pi * 55 * i / sr)) * math.exp(-i / (0.35 * sr)))
+            return out
+        for e in self.R.get("sfx_events", []):
+            k = e["kind"]
+            if k == "crinkle": add(e["t"], crinkle(e.get("dur", 1.0)), e.get("gain", 0.6))
+            elif k == "crunch": add(e["t"], crunch(), e.get("gain", 0.8))
+            elif k == "boom": add(e["t"], boom(), e.get("gain", 0.6))
+            elif k == "ding": add(e["t"], ding, e.get("gain", 1.0))
+            elif k == "pop": add(e["t"], pop(), e.get("gain", 1.0))
+            elif k == "smash": add(e["t"], crunch(), 1.0); add(e["t"] + 0.05, tone([2600, 3100, 2200], 0.4, 6, 0.12))
+            elif k == "sad": add(e["t"], tone([392, 370, 349, 330], 0.45, 4, 0.18))
+            elif k == "cheer": add(e["t"], tone([523, 659, 784, 1047], 0.3, 6, 0.18))
         with wave.open(path, "w") as wf:
             wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(sr)
             wf.writeframes(b"".join(struct.pack("<h", int(max(-1, min(1, v)) * 32767)) for v in buf))
