@@ -1,0 +1,367 @@
+{
+ "out": "sibling_pt4",
+ "voice": "sb4_vo.mp3",
+ "words": "sb4_words.json",
+ "end": 51.7,
+ "title": [
+  "Every Type of Sibling",
+  "Explained pt 4"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 5"
+ ],
+ "scenes": [
+  {
+   "img": "sb4_walk",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 4.0,
+   "focus": [
+    0.7,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_mirror",
+   "t": 5.4,
+   "focus": [
+    0.3,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_mirror",
+   "t": 6.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_mirror",
+   "t": 7.8,
+   "focus": [
+    0.72,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_guitar",
+   "t": 9.5,
+   "focus": [
+    0.4,
+    0.6
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "sb4_guitar",
+   "t": 11.4,
+   "focus": [
+    0.65,
+    0.25
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "sb4_dinner",
+   "t": 13.7,
+   "focus": [
+    0.2,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "sb4_dinner",
+   "t": 15.6,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_dinner",
+   "t": 18.3,
+   "focus": [
+    0.78,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_dinner",
+   "t": 21.0,
+   "focus": [
+    0.45,
+    0.4
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 22.7,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 31.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 33.1,
+   "focus": [
+    0.7,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 36.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.15,
+    1.2
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 37.3,
+   "focus": [
+    0.3,
+    0.45
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 43.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 44.6,
+   "focus": [
+    0.72,
+    0.5
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 46.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 5.4,
+   "end": 6.8,
+   "text": "NEW HAIRCUT",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 6.9,
+   "end": 7.7,
+   "text": "NEXT DAY",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 17.1,
+   "end": 18.2,
+   "text": "5 MINUTES LATER",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 20.0,
+   "end": 20.9,
+   "text": "LOUDER.",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 22.7,
+   "end": 24.8,
+   "text": "stop copying me",
+   "x": 0.3,
+   "y": 0.28,
+   "tail": [
+    0.3,
+    0.4
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 24.9,
+   "end": 27.3,
+   "text": "stop copying me",
+   "x": 0.7,
+   "y": 0.28,
+   "tail": [
+    0.7,
+    0.4
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 27.4,
+   "end": 29.5,
+   "text": "I'm serious",
+   "x": 0.3,
+   "y": 0.28,
+   "tail": [
+    0.3,
+    0.4
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 29.6,
+   "end": 31.7,
+   "text": "I'm serious",
+   "x": 0.7,
+   "y": 0.28,
+   "tail": [
+    0.7,
+    0.4
+   ]
+  },
+  {
+   "type": "card",
+   "start": 34.4,
+   "end": 35.9,
+   "text": "SAME DIRECTION",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 36.0,
+   "end": 37.2,
+   "text": "BEHIND YOU",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 37.3,
+   "end": 38.9,
+   "text": "YEARS LATER",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 39.5,
+   "end": 42.7,
+   "text": "your own style. finally.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 44.6,
+   "end": 46.8,
+   "text": "YOUR. EXACT. JACKET.",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 21.0,
+   "kind": "cheer"
+  },
+  {
+   "t": 43.9,
+   "kind": "boom"
+  }
+ ]
+}

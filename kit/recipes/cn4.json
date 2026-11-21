@@ -1,0 +1,388 @@
+{
+ "out": "cinema_pt4",
+ "voice": "cn4_vo.mp3",
+ "words": "cn4_words.json",
+ "end": 52.9,
+ "title": [
+  "Every Type of Person",
+  "at the Cinema",
+  "Explained pt 4"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 5"
+ ],
+ "scenes": [
+  {
+   "img": "cn4_kick",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 4.6,
+   "focus": [
+    0.35,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 6.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 8.1,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 10.7,
+   "focus": [
+    0.5,
+    0.2
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 12.1,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 14.2,
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 15.4,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 17.0,
+   "focus": [
+    0.62,
+    0.5
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 17.9,
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 20.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 21.4,
+   "focus": [
+    0.33,
+    0.3
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn4_thumbs",
+   "t": 26.5,
+   "focus": [
+    0.4,
+    0.6
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn4_thumbs",
+   "t": 27.8,
+   "focus": [
+    0.7,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 29.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 32.3,
+   "focus": [
+    0.45,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 34.0,
+   "focus": [
+    0.62,
+    0.55
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 36.3,
+   "focus": [
+    0.55,
+    0.4
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 39.5,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "cn4_thumbs",
+   "t": 43.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_thumbs",
+   "t": 46.6,
+   "focus": [
+    0.7,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "cn4_kick",
+   "t": 48.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 7.4,
+   "end": 9.3,
+   "text": "PERFECT SEAT",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 13.3,
+   "end": 14.1,
+   "text": "*THUMP*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 17.0,
+   "end": 17.8,
+   "text": "*THUMP*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 17.9,
+   "end": 18.7,
+   "text": "*THUMP*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 18.8,
+   "end": 20.1,
+   "text": "NOT AN ACCIDENT",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 24.3,
+   "end": 26.4,
+   "text": "5-STAR HOME SOFA",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 30.3,
+   "end": 32.2,
+   "text": "ACTION SCENE",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 34.6,
+   "end": 36.2,
+   "text": "FREE MASSAGE CHAIR",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 41.5,
+   "end": 43.6,
+   "text": "MORE KICKS THAN THE BAD GUY",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 46.6,
+   "end": 48.1,
+   "text": "great seats, right?",
+   "x": 0.4,
+   "y": 0.22,
+   "tail": [
+    0.62,
+    0.3
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 13.4,
+   "kind": "boom"
+  },
+  {
+   "t": 17.0,
+   "kind": "boom"
+  },
+  {
+   "t": 17.9,
+   "kind": "boom"
+  },
+  {
+   "t": 28.4,
+   "kind": "pop"
+  },
+  {
+   "t": 32.6,
+   "kind": "boom"
+  },
+  {
+   "t": 33.2,
+   "kind": "boom"
+  },
+  {
+   "t": 46.7,
+   "kind": "sad"
+  }
+ ]
+}

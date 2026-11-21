@@ -1,0 +1,408 @@
+{
+ "out": "group_chat_pt4",
+ "voice": "gc4_vo.mp3",
+ "words": "gc4_words.json",
+ "end": 54.6,
+ "title": [
+  "Every Type of Person",
+  "in a Group Chat",
+  "Explained pt 4"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 5"
+ ],
+ "scenes": [
+  {
+   "img": "gc4_laugh",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 4.8,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "gc4_buzz",
+   "t": 7.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_buzz",
+   "t": 12.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "gc4_buzz",
+   "t": 13.8,
+   "focus": [
+    0.65,
+    0.72
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "gc4_buzz",
+   "t": 19.6,
+   "focus": [
+    0.4,
+    0.4
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 22.6,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 24.0,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 27.3,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "img": "gc4_duck",
+   "t": 30.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_duck",
+   "t": 34.2,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "gc4_panic",
+   "t": 35.6,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_panic",
+   "t": 38.6,
+   "focus": [
+    0.6,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc4_duck",
+   "t": 40.8,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.1,
+    1.15
+   ]
+  },
+  {
+   "img": "gc4_asleep",
+   "t": 42.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_asleep",
+   "t": 44.2,
+   "focus": [
+    0.42,
+    0.3
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 48.7,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "phone",
+   "start": 7.4,
+   "end": 11.9,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "2 weeks ago",
+   "msgs": [
+    {
+     "t": 7.5,
+     "from": "Jay",
+     "text": "ok see you guys"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 10.4,
+   "end": 11.9,
+   "text": "*silence*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 12.0,
+   "end": 13.7,
+   "text": "3:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 15.4,
+   "end": 19.5,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "3:01",
+   "msgs": [
+    {
+     "t": 15.5,
+     "from": "Leo",
+     "text": "LMAOOO"
+    },
+    {
+     "t": 16.6,
+     "from": "Leo",
+     "text": "wait this one"
+    },
+    {
+     "t": 17.8,
+     "from": "Leo",
+     "text": "and this"
+    },
+    {
+     "t": 18.2,
+     "from": "Leo",
+     "text": "and this"
+    },
+    {
+     "t": 18.6,
+     "from": "Leo",
+     "text": "HAHAHA"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 19.6,
+   "end": 20.8,
+   "text": "NOBODY ASKED",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 20.9,
+   "end": 22.5,
+   "text": "NOBODY IS AWAKE",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 26.2,
+   "end": 27.2,
+   "text": "ALONE.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 27.3,
+   "end": 28.6,
+   "text": "IN THE DARK.",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 28.7,
+   "end": 30.7,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "3:04",
+   "msgs": [
+    {
+     "t": 28.8,
+     "from": "Leo",
+     "text": "when the when u"
+    },
+    {
+     "t": 29.6,
+     "from": "Leo",
+     "text": "bro im crying"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 33.1,
+   "end": 34.1,
+   "text": "NO CAPTION.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 34.2,
+   "end": 35.5,
+   "text": "JUST A DUCK.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 36.4,
+   "end": 38.5,
+   "text": "47 NOTIFICATIONS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 40.8,
+   "end": 42.1,
+   "text": "IT'S THE DUCK.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 45.4,
+   "end": 48.6,
+   "text": "NEXT REPLY: 3:00 AM",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 14.5,
+   "kind": "pop"
+  },
+  {
+   "t": 15.5,
+   "kind": "pop"
+  },
+  {
+   "t": 16.6,
+   "kind": "pop"
+  },
+  {
+   "t": 17.8,
+   "kind": "pop"
+  },
+  {
+   "t": 36.5,
+   "kind": "boom"
+  },
+  {
+   "t": 40.9,
+   "kind": "sad"
+  }
+ ]
+}
