@@ -244,10 +244,13 @@ class Video:
             return out
         def pop(): return tone([660], 0.12, 30, 0.25)
         ding, wh = tone([1318.5, 1760]), whoosh()
-        for s in self.R["scenes"][1:]:
-            if s["img"] != "SAME": add(s["t"] - 0.12, wh)
+        wm = self.R.get("whoosh", "change")
+        sc = self.R["scenes"]
+        for a, s in zip(sc, sc[1:]):
+            if s["img"] == "SAME": continue
+            if wm is True or (wm == "change" and s["img"] != a["img"]): add(s["t"] - 0.12, wh)
         for ov in self.R.get("overlays", []):
-            if ov["type"] in ("phone", "inbox"): add(ov["start"], wh)
+            if ov["type"] in ("phone", "inbox") and self.R.get("whoosh", False): add(ov["start"], wh)
             for m in ov.get("msgs", []) + ov.get("mails", []):
                 if not m.get("note"): add(m["t"], ding)
             if ov["type"] in ("bubble", "card"): add(ov["start"], pop())
@@ -295,9 +298,17 @@ class Video:
 
     def render(self, out):
         self.sfx(out + ".sfx.wav")
+        mus = self.R.get("music")
+        ins = ["-i", self.R["voice"], "-i", out + ".sfx.wav"]
+        fc = "[1:a]apad[v];[v][2:a]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5[a]"
+        if mus:
+            ins += ["-stream_loop", "-1", "-i", mus]
+            mv = self.R.get("music_vol", 0.12)
+            fc = (f"[1:a]apad,loudnorm=I=-15:TP=-2[v];[3:a]loudnorm=I=-15:TP=-2,volume={mv},afade=t=in:d=0.5,afade=t=out:st={self.END-1.5}:d=1.5[m];"
+                  "[v][2:a][m]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.89[a]")
         ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                               "-i", self.R["voice"], "-i", out + ".sfx.wav",
-                               "-filter_complex", "[1:a]apad[v];[v][2:a]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5[a]",
+                               *ins,
+                               "-filter_complex", fc,
                                "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
                                "-c:a", "aac", "-b:a", "192k", "-t", str(self.END), "-movflags", "+faststart", out], stdin=subprocess.PIPE)
         for i in range(int(self.END * FPS)): ff.stdin.write(self.frame(i / FPS).tobytes())
