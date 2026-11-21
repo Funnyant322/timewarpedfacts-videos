@@ -43,3 +43,6 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Check with account_get_usage before generating. When the original runs out (or is too low for the next video), STOP and tell David to switch the ElevenLabs connector (Claude Settings → Connectors → disconnect, reconnect, sign in with the second account). He has to do the switch himself.
 - Second account: monthly Creator bought 21 Nov ($11 first month, $22 after) — remind him to decide before ~21 Dec.
 - Heads-up: the original account dropped from 59,585 to 129,923 used (of 152,432) overnight 20→21 Nov, likely other channels' automations sharing it.
+
+## Comment question on every post (21 Nov 2026)
+- Add a first comment to every Metricool post (firstCommentText), e.g. "Which type should I do next? 👇" or "Which type of ___ are you? 👇". Metricool posts it as a comment; David can pin it in YouTube Studio.
