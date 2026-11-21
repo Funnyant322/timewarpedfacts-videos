@@ -2,7 +2,7 @@
  "out": "group_chat_pt3",
  "voice": "gc3_vo_fast.wav",
  "words": "gc3_words_fast.json",
- "end": 33.07,
+ "end": 37.19,
  "title": [
   "Every Type of Person",
   "in a Group Chat",
@@ -27,7 +27,7 @@
   },
   {
    "img": "gc3_friday",
-   "t": 2.05,
+   "t": 2.31,
    "focus": [
     0.62,
     0.5
@@ -39,7 +39,7 @@
   },
   {
    "img": "gc3_friday",
-   "t": 3.63,
+   "t": 4.1,
    "focus": [
     0.66,
     0.42
@@ -51,7 +51,7 @@
   },
   {
    "img": "gc3_monday",
-   "t": 5.84,
+   "t": 6.6,
    "focus": [
     0.5,
     0.5
@@ -63,7 +63,7 @@
   },
   {
    "img": "gc3_monday",
-   "t": 7.48,
+   "t": 8.42,
    "focus": [
     0.42,
     0.55
@@ -75,7 +75,7 @@
   },
   {
    "img": "gc3_office",
-   "t": 8.42,
+   "t": 9.62,
    "focus": [
     0.5,
     0.5
@@ -87,7 +87,7 @@
   },
   {
    "img": "gc3_cafe",
-   "t": 9.94,
+   "t": 11.36,
    "focus": [
     0.5,
     0.5
@@ -99,7 +99,7 @@
   },
   {
    "img": "gc3_bed_buzz",
-   "t": 13.85,
+   "t": 15.69,
    "focus": [
     0.62,
     0.55
@@ -111,7 +111,7 @@
   },
   {
    "img": "gc3_cafe",
-   "t": 17.62,
+   "t": 20.01,
    "focus": [
     0.42,
     0.68
@@ -123,7 +123,7 @@
   },
   {
    "img": "gc3_organiser",
-   "t": 19.89,
+   "t": 22.56,
    "focus": [
     0.5,
     0.5
@@ -135,7 +135,7 @@
   },
   {
    "img": "gc3_organiser",
-   "t": 21.72,
+   "t": 24.58,
    "focus": [
     0.5,
     0.4
@@ -147,7 +147,7 @@
   },
   {
    "img": "gc3_organiser",
-   "t": 23.8,
+   "t": 27.02,
    "focus": [
     0.5,
     0.33
@@ -159,7 +159,7 @@
   },
   {
    "img": "gc3_restaurant",
-   "t": 26.29,
+   "t": 29.79,
    "focus": [
     0.5,
     0.5
@@ -171,7 +171,7 @@
   },
   {
    "img": "gc3_monday",
-   "t": 28.07,
+   "t": 31.71,
    "focus": [
     0.5,
     0.5
@@ -183,7 +183,7 @@
   },
   {
    "img": "gc3_restaurant",
-   "t": 29.77,
+   "t": 33.54,
    "focus": [
     0.55,
     0.42
@@ -195,7 +195,7 @@
   },
   {
    "img": "gc3_bed_buzz",
-   "t": 31.02,
+   "t": 34.98,
    "focus": [
     0.5,
     0.5
@@ -209,15 +209,15 @@
  "overlays": [
   {
    "type": "card",
-   "start": 0.09,
-   "end": 2.03,
+   "start": 0.1,
+   "end": 2.23,
    "text": "THE 3-DAYS-LATE REPLIER",
    "y": 0.6
   },
   {
    "type": "phone",
-   "start": 2.14,
-   "end": 5.83,
+   "start": 2.4,
+   "end": 6.5,
    "scale": 1.2,
    "group": true,
    "me": "Sam",
@@ -226,22 +226,22 @@
    "clock": "8:14",
    "msgs": [
     {
-     "t": 2.5,
+     "t": 2.79,
      "from": "Jay",
      "text": "who's free friday?"
     },
     {
-     "t": 3.12,
+     "t": 3.46,
      "from": "Maya",
      "text": "me!!"
     },
     {
-     "t": 3.58,
+     "t": 4.0,
      "from": "Sam",
      "text": "im in"
     },
     {
-     "t": 4.07,
+     "t": 4.58,
      "from": "Jay",
      "text": "leo??"
     }
@@ -250,15 +250,15 @@
   },
   {
    "type": "card",
-   "start": 5.93,
-   "end": 7.42,
+   "start": 6.69,
+   "end": 8.33,
    "text": "MONDAY, 9:00 AM",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 7.48,
-   "end": 8.41,
+   "start": 8.42,
+   "end": 9.56,
    "text": "yeah im down",
    "x": 0.5,
    "y": 0.3,
@@ -269,8 +269,8 @@
   },
   {
    "type": "bubble",
-   "start": 8.51,
-   "end": 9.91,
+   "start": 9.72,
+   "end": 11.28,
    "text": "BRO. IT'S MONDAY.",
    "x": 0.5,
    "y": 0.3,
@@ -281,15 +281,15 @@
   },
   {
    "type": "card",
-   "start": 10.03,
-   "end": 13.76,
+   "start": 11.46,
+   "end": 15.49,
    "text": "THE 15-MESSAGE TEXTER",
    "y": 0.34
   },
   {
    "type": "phone",
-   "start": 13.85,
-   "end": 17.59,
+   "start": 15.69,
+   "end": 19.94,
    "scale": 1.2,
    "side": "left",
    "group": true,
@@ -299,27 +299,27 @@
    "clock": "12:31",
    "msgs": [
     {
-     "t": 13.94,
+     "t": 15.78,
      "from": "Leo",
      "text": "hey"
     },
     {
-     "t": 14.66,
+     "t": 16.55,
      "from": "Leo",
      "text": "so"
     },
     {
-     "t": 15.35,
+     "t": 17.32,
      "from": "Leo",
      "text": "um"
     },
     {
-     "t": 16.19,
+     "t": 18.32,
      "from": "Leo",
      "text": "guess"
     },
     {
-     "t": 17.03,
+     "t": 19.28,
      "from": "Leo",
      "text": "what"
     }
@@ -327,22 +327,22 @@
   },
   {
    "type": "card",
-   "start": 17.71,
-   "end": 19.81,
+   "start": 20.11,
+   "end": 22.42,
    "text": "SINCE LUNCH...",
    "y": 0.34
   },
   {
    "type": "card",
-   "start": 19.98,
-   "end": 21.59,
+   "start": 22.65,
+   "end": 24.39,
    "text": "THE ORGANISER WHO CANCELS",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 21.72,
-   "end": 23.76,
+   "start": 24.58,
+   "end": 26.92,
    "text": "Dinner Saturday, who's in?!",
    "x": 0.5,
    "y": 0.3,
@@ -353,8 +353,8 @@
   },
   {
    "type": "phone",
-   "start": 23.8,
-   "end": 26.24,
+   "start": 27.02,
+   "end": 29.69,
    "scale": 1.2,
    "group": true,
    "me": "Sam",
@@ -363,17 +363,17 @@
    "clock": "9:02",
    "msgs": [
     {
-     "t": 23.89,
+     "t": 27.12,
      "from": "Maya",
      "text": "YES"
     },
     {
-     "t": 24.34,
+     "t": 27.6,
      "from": "Sam",
      "text": "in!"
     },
     {
-     "t": 25.23,
+     "t": 28.56,
      "from": "Jay",
      "text": "booked the table"
     }
@@ -381,15 +381,15 @@
   },
   {
    "type": "card",
-   "start": 26.38,
-   "end": 27.98,
+   "start": 29.89,
+   "end": 31.62,
    "text": "SATURDAY, 6:00 PM",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 28.16,
-   "end": 31.01,
+   "start": 31.81,
+   "end": 34.92,
    "text": "guys... im so tired... rain check?",
    "x": 0.5,
    "y": 0.3,
@@ -400,19 +400,19 @@
   },
   {
    "type": "card",
-   "start": 31.11,
-   "end": 33.07,
+   "start": 35.08,
+   "end": 37.19,
    "text": "WHICH ONE IS IN YOURS?",
    "y": 0.34
   }
  ],
  "sfx_events": [
   {
-   "t": 8.51,
+   "t": 9.72,
    "kind": "pop"
   },
   {
-   "t": 29.77,
+   "t": 33.54,
    "kind": "sad"
   }
  ],

@@ -6,7 +6,7 @@ import json, sys, subprocess
 R = json.load(open(sys.argv[1])); clip = sys.argv[2]; out = sys.argv[3]; text = sys.argv[4]
 trim = clip.replace(".mp3", "_trim.wav")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clip, "-af",
-                "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,atempo=1.08",
+                "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse",
                 trim], check=True)
 D = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", trim],
                          capture_output=True, text=True).stdout) + 0.12

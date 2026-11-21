@@ -2,7 +2,7 @@
  "out": "friend_pt3",
  "voice": "fr3_vo_fast.wav",
  "words": "fr3_words_fast.json",
- "end": 36.1,
+ "end": 40.65,
  "title": [
   "Every Type of Friend",
   "Explained pt 3"
@@ -26,7 +26,7 @@
   },
   {
    "img": "gc2_cobweb",
-   "t": 2.6,
+   "t": 2.87,
    "focus": [
     0.42,
     0.55
@@ -38,7 +38,7 @@
   },
   {
    "img": "fr3_text",
-   "t": 5.92,
+   "t": 6.65,
    "focus": [
     0.62,
     0.6
@@ -50,7 +50,7 @@
   },
   {
    "img": "fr3_text",
-   "t": 8.88,
+   "t": 10.04,
    "focus": [
     0.6,
     0.5
@@ -62,7 +62,7 @@
   },
   {
    "img": "fr3_car",
-   "t": 10.46,
+   "t": 11.85,
    "focus": [
     0.5,
     0.55
@@ -74,7 +74,7 @@
   },
   {
    "img": "fr3_spoil1",
-   "t": 11.85,
+   "t": 13.44,
    "focus": [
     0.38,
     0.55
@@ -86,7 +86,7 @@
   },
   {
    "img": "fr3_spoil1",
-   "t": 13.2,
+   "t": 14.98,
    "focus": [
     0.75,
     0.62
@@ -98,7 +98,7 @@
   },
   {
    "img": "fr3_spoil1",
-   "t": 14.84,
+   "t": 16.84,
    "focus": [
     0.3,
     0.52
@@ -110,7 +110,7 @@
   },
   {
    "img": "fr3_spoil1",
-   "t": 17.54,
+   "t": 19.82,
    "focus": [
     0.48,
     0.52
@@ -122,7 +122,7 @@
   },
   {
    "img": "fr3_spoil2",
-   "t": 19.26,
+   "t": 21.84,
    "focus": [
     0.5,
     0.55
@@ -134,7 +134,7 @@
   },
   {
    "img": "fr3_spoil2",
-   "t": 20.92,
+   "t": 23.67,
    "focus": [
     0.36,
     0.45
@@ -146,7 +146,7 @@
   },
   {
    "img": "fr3_game_night",
-   "t": 21.89,
+   "t": 24.8,
    "focus": [
     0.5,
     0.55
@@ -158,7 +158,7 @@
   },
   {
    "img": "fr3_game_night",
-   "t": 24.61,
+   "t": 27.86,
    "focus": [
     0.4,
     0.55
@@ -170,7 +170,7 @@
   },
   {
    "img": "fr3_game_night",
-   "t": 26.59,
+   "t": 30.1,
    "focus": [
     0.6,
     0.55
@@ -182,7 +182,7 @@
   },
   {
    "img": "fr3_game_sunrise",
-   "t": 29.57,
+   "t": 33.51,
    "focus": [
     0.5,
     0.5
@@ -194,7 +194,7 @@
   },
   {
    "img": "fr3_game_sunrise",
-   "t": 31.79,
+   "t": 35.91,
    "focus": [
     0.68,
     0.66
@@ -206,7 +206,7 @@
   },
   {
    "img": "fr2_feast",
-   "t": 33.81,
+   "t": 38.15,
    "focus": [
     0.5,
     0.5
@@ -220,39 +220,39 @@
  "overlays": [
   {
    "type": "card",
-   "start": 0.09,
-   "end": 2.59,
+   "start": 0.1,
+   "end": 2.79,
    "text": "THE 'NEED SOMETHING' FRIEND",
    "y": 0.34
   },
   {
    "type": "card",
-   "start": 2.75,
-   "end": 5.92,
+   "start": 3.06,
+   "end": 6.62,
    "text": "2 YEARS OF SILENCE...",
    "y": 0.34
   },
   {
    "type": "phone",
-   "start": 6.09,
-   "end": 10.46,
+   "start": 6.85,
+   "end": 11.85,
    "title": "Leo",
    "title_av": "Leo",
    "me": "Sam",
    "clock": "11:42",
    "msgs": [
     {
-     "t": 7.32,
+     "t": 8.27,
      "from": "Leo",
      "text": "heyyy"
     },
     {
-     "t": 8.3,
+     "t": 9.33,
      "from": "Leo",
      "text": "how've you been??"
     },
     {
-     "t": 9.93,
+     "t": 11.27,
      "from": "Leo",
      "text": "so... u still have that car?"
     }
@@ -261,22 +261,22 @@
   },
   {
    "type": "card",
-   "start": 12.03,
-   "end": 13.2,
+   "start": 13.63,
+   "end": 14.98,
    "text": "THE SPOILER",
    "y": 0.34
   },
   {
    "type": "card",
-   "start": 13.28,
-   "end": 14.83,
+   "start": 15.07,
+   "end": 16.78,
    "text": "SEASON FINALE",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 14.92,
-   "end": 17.5,
+   "start": 16.94,
+   "end": 19.73,
    "text": "DON'T SPOIL IT!",
    "x": 0.5,
    "y": 0.32,
@@ -287,8 +287,8 @@
   },
   {
    "type": "bubble",
-   "start": 19.32,
-   "end": 21.88,
+   "start": 21.94,
+   "end": 24.73,
    "text": "so you don't know he dies?",
    "x": 0.55,
    "y": 0.3,
@@ -299,22 +299,22 @@
   },
   {
    "type": "card",
-   "start": 22.06,
-   "end": 23.58,
+   "start": 24.99,
+   "end": 26.63,
    "text": "THE 'ONE MORE GAME' FRIEND",
    "y": 0.34
   },
   {
    "type": "card",
-   "start": 23.71,
-   "end": 24.61,
+   "start": 26.82,
+   "end": 27.84,
    "text": "11:00 PM",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 24.67,
-   "end": 26.59,
+   "start": 27.95,
+   "end": 30.07,
    "text": "one more game, then we sleep",
    "x": 0.5,
    "y": 0.3,
@@ -325,15 +325,15 @@
   },
   {
    "type": "card",
-   "start": 26.66,
-   "end": 27.45,
+   "start": 30.2,
+   "end": 31.14,
    "text": "3:00 AM",
    "y": 0.58
   },
   {
    "type": "bubble",
-   "start": 27.54,
-   "end": 29.57,
+   "start": 31.23,
+   "end": 33.46,
    "text": "okay okay... last one",
    "x": 0.5,
    "y": 0.3,
@@ -344,15 +344,15 @@
   },
   {
    "type": "card",
-   "start": 29.65,
-   "end": 31.08,
+   "start": 33.6,
+   "end": 35.14,
    "text": "7:00 AM",
    "y": 0.62
   },
   {
    "type": "bubble",
-   "start": 31.88,
-   "end": 33.58,
+   "start": 36.01,
+   "end": 37.83,
    "text": "one more.",
    "x": 0.5,
    "y": 0.3,
@@ -363,15 +363,15 @@
   },
   {
    "type": "card",
-   "start": 33.87,
-   "end": 36.1,
+   "start": 38.24,
+   "end": 40.65,
    "text": "WHICH ONE IS YOURS?",
    "y": 0.34
   },
   {
    "type": "bubble",
-   "start": 29.65,
-   "end": 31.7,
+   "start": 33.6,
+   "end": 35.81,
    "text": "one more?",
    "x": 0.57,
    "y": 0.33,
@@ -383,16 +383,16 @@
  ],
  "sfx_events": [
   {
-   "t": 21.01,
+   "t": 23.77,
    "kind": "boom",
    "gain": 0.5
   },
   {
-   "t": 29.65,
+   "t": 33.6,
    "kind": "cheer"
   },
   {
-   "t": 33.76,
+   "t": 38.02,
    "kind": "sad"
   }
  ],
