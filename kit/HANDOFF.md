@@ -37,3 +37,9 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Repo: github.com/Funnyant322/timewarpedfacts-videos (videos in videos/every_type/). Git user Funnyant322 / Funnyant322@users.noreply.github.com; push with `git -c push.negotiate=true push origin HEAD:main`.
 - PC kit folder: C:\Users\1234d\Videos\What If Things Kit (save videos/scenes there with device_commit_files).
 - Credits: ElevenLabs Creator plan, 59,585 of 152,432 used as of 20 Nov 22:00 (~92,800 left), resets 20 Dec. Check with account_get_usage.
+
+## ElevenLabs accounts (21 Nov 2026)
+- David has TWO ElevenLabs accounts. Keep using the ORIGINAL one (yearly Creator, resets 20 Dec) until its credits run out.
+- Check with account_get_usage before generating. When the original runs out (or is too low for the next video), STOP and tell David to switch the ElevenLabs connector (Claude Settings → Connectors → disconnect, reconnect, sign in with the second account). He has to do the switch himself.
+- Second account: monthly Creator bought 21 Nov ($11 first month, $22 after) — remind him to decide before ~21 Dec.
+- Heads-up: the original account dropped from 59,585 to 129,923 used (of 152,432) overnight 20→21 Nov, likely other channels' automations sharing it.
