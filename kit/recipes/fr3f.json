@@ -1,0 +1,400 @@
+{
+ "out": "friend_pt3",
+ "voice": "fr3_vo_fast.wav",
+ "words": "fr3_words_fast.json",
+ "end": 36.1,
+ "title": [
+  "Every Type of Friend",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "fr3_text",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "img": "gc2_cobweb",
+   "t": 2.6,
+   "focus": [
+    0.42,
+    0.55
+   ],
+   "zoom": [
+    1.15,
+    1.4
+   ]
+  },
+  {
+   "img": "fr3_text",
+   "t": 5.92,
+   "focus": [
+    0.62,
+    0.6
+   ],
+   "zoom": [
+    1.25,
+    1.35
+   ]
+  },
+  {
+   "img": "fr3_text",
+   "t": 8.88,
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "fr3_car",
+   "t": 10.46,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 11.85,
+   "focus": [
+    0.38,
+    0.55
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 13.2,
+   "focus": [
+    0.75,
+    0.62
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 14.84,
+   "focus": [
+    0.3,
+    0.52
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 17.54,
+   "focus": [
+    0.48,
+    0.52
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "fr3_spoil2",
+   "t": 19.26,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "fr3_spoil2",
+   "t": 20.92,
+   "focus": [
+    0.36,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 21.89,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 24.61,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 26.59,
+   "focus": [
+    0.6,
+    0.55
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 29.57,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 31.79,
+   "focus": [
+    0.68,
+    0.66
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "fr2_feast",
+   "t": 33.81,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 0.09,
+   "end": 2.59,
+   "text": "THE 'NEED SOMETHING' FRIEND",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 2.75,
+   "end": 5.92,
+   "text": "2 YEARS OF SILENCE...",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 6.09,
+   "end": 10.46,
+   "title": "Leo",
+   "title_av": "Leo",
+   "me": "Sam",
+   "clock": "11:42",
+   "msgs": [
+    {
+     "t": 7.32,
+     "from": "Leo",
+     "text": "heyyy"
+    },
+    {
+     "t": 8.3,
+     "from": "Leo",
+     "text": "how've you been??"
+    },
+    {
+     "t": 9.93,
+     "from": "Leo",
+     "text": "so... u still have that car?"
+    }
+   ],
+   "scale": 1.2
+  },
+  {
+   "type": "card",
+   "start": 12.03,
+   "end": 13.2,
+   "text": "THE SPOILER",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 13.28,
+   "end": 14.83,
+   "text": "SEASON FINALE",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 14.92,
+   "end": 17.5,
+   "text": "DON'T SPOIL IT!",
+   "x": 0.5,
+   "y": 0.32,
+   "tail": [
+    0.4,
+    0.45
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 19.32,
+   "end": 21.88,
+   "text": "so you don't know he dies?",
+   "x": 0.55,
+   "y": 0.3,
+   "tail": [
+    0.62,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 22.06,
+   "end": 23.58,
+   "text": "THE 'ONE MORE GAME' FRIEND",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 23.71,
+   "end": 24.61,
+   "text": "11:00 PM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 24.67,
+   "end": 26.59,
+   "text": "one more game, then we sleep",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.44
+   ]
+  },
+  {
+   "type": "card",
+   "start": 26.66,
+   "end": 27.45,
+   "text": "3:00 AM",
+   "y": 0.58
+  },
+  {
+   "type": "bubble",
+   "start": 27.54,
+   "end": 29.57,
+   "text": "okay okay... last one",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.4,
+    0.44
+   ]
+  },
+  {
+   "type": "card",
+   "start": 29.65,
+   "end": 31.08,
+   "text": "7:00 AM",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 31.88,
+   "end": 33.58,
+   "text": "one more.",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.55,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 33.87,
+   "end": 36.1,
+   "text": "WHICH ONE IS YOURS?",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 29.65,
+   "end": 31.7,
+   "text": "one more?",
+   "x": 0.57,
+   "y": 0.33,
+   "tail": [
+    0.6,
+    0.44
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 21.01,
+   "kind": "boom",
+   "gain": 0.5
+  },
+  {
+   "t": 29.65,
+   "kind": "cheer"
+  },
+  {
+   "t": 33.76,
+   "kind": "sad"
+  }
+ ],
+ "extra_dings": []
+}

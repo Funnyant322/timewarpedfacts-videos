@@ -55,3 +55,10 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 ## Fast start (21 Nov 2026, David: intro too slow, viewers swipe)
 - NO spoken intro ("Every type of X explained… part two:" took ~5 s). The title is on screen already. The first spoken words must be the first type/joke, within the first second.
 - Cinema pt2 and Sibling pt2 were re-cut (videos/every_type/*_pt2_fast.mp4) to start at the first type.
+
+## Pacing (21 Nov 2026, David: whole video too slow)
+- After rendering the voice + words, ALWAYS run `python3 kit/tools/speedup.py recipe.json recipe_f.json 1.12 0.22` (cuts gaps between words to 0.22 s, plays 12% faster, re-times scenes/overlays/sfx), then render the _f recipe.
+- Write recipes in ORIGINAL voice timing; speedup.py maps everything.
+- Use few [pause] tags in scripts. A shot needs ≥1 s after speedup.
+- Friend pt3 (recipe fr3.json → fr3f.json) is the template for the new style: 3 types, 6 new pictures + 2 reused, ~17 shots, section cards ("THE SPOILER", "11:00 PM"), phone overlay scale 1.2, bubbles, ends on "WHICH ONE IS YOURS?". 36 s after speedup. Cost ~5,300 credits (images with 2 refs cost 812 each, 1 ref 609).
+- For more length, add a 4th type rather than slowing down.
