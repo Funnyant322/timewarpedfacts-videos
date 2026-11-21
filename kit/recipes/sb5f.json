@@ -1,0 +1,463 @@
+{
+ "out": "sibling_pt5",
+ "voice": "sb5_vo_fast.wav",
+ "words": "sb5_words_fast.json",
+ "end": 45.75,
+ "title": [
+  "Every Type of Sibling",
+  "Explained pt 5"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 6"
+ ],
+ "scenes": [
+  {
+   "img": "sb5_knock",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 2.63,
+   "focus": [
+    0.62,
+    0.38
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 5.83,
+   "focus": [
+    0.15,
+    0.18
+   ],
+   "zoom": [
+    2.2,
+    2.35
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 7.04,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 8.98,
+   "focus": [
+    0.45,
+    0.4
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 9.85,
+   "focus": [
+    0.35,
+    0.45
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 11.07,
+   "focus": [
+    0.62,
+    0.36
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 12.23,
+   "focus": [
+    0.3,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "sb5_concert",
+   "t": 13.54,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_concert",
+   "t": 14.81,
+   "focus": [
+    0.62,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb5_concert",
+   "t": 16.17,
+   "focus": [
+    0.62,
+    0.45
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "sb5_concert",
+   "t": 18.64,
+   "focus": [
+    0.85,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "sb5_fog",
+   "t": 20.1,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_fog",
+   "t": 21.65,
+   "focus": [
+    0.45,
+    0.37
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 23.98,
+   "focus": [
+    0.75,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 25.92,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 27.67,
+   "focus": [
+    0.35,
+    0.4
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 28.64,
+   "focus": [
+    0.92,
+    0.6
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 29.37,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 30.83,
+   "focus": [
+    0.5,
+    0.33
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 32.48,
+   "focus": [
+    0.25,
+    0.65
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 34.03,
+   "focus": [
+    0.45,
+    0.62
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 35.87,
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 39.17,
+   "focus": [
+    0.58,
+    0.38
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 41.86,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_after",
+   "t": 43.32,
+   "focus": [
+    0.27,
+    0.36
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 5.92,
+   "end": 6.94,
+   "text": "7:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 9.85,
+   "end": 11.07,
+   "text": "FIVE MINUTES!",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.3,
+    0.35
+   ]
+  },
+  {
+   "type": "card",
+   "start": 11.07,
+   "end": 12.14,
+   "text": "10 MINUTES LATER",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 12.23,
+   "end": 13.45,
+   "text": "FIVE MINUTES!",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.3,
+    0.35
+   ]
+  },
+  {
+   "type": "card",
+   "start": 16.17,
+   "end": 18.54,
+   "text": "FULL CONCERT",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 24.08,
+   "end": 25.83,
+   "text": "*knock*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 26.02,
+   "end": 27.57,
+   "text": "2 SECONDS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 30.83,
+   "end": 32.38,
+   "text": "HOT WATER: GONE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 32.48,
+   "end": 33.93,
+   "text": "TOWEL: WET",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 34.03,
+   "end": 35.78,
+   "text": "SHAMPOO: EMPTY",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 39.27,
+   "end": 41.69,
+   "text": "why are you always so slow?",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.58,
+    0.32
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 9.08,
+   "kind": "pop"
+  },
+  {
+   "t": 9.37,
+   "kind": "pop"
+  },
+  {
+   "t": 13.64,
+   "kind": "ding"
+  },
+  {
+   "t": 24.08,
+   "kind": "pop"
+  },
+  {
+   "t": 26.02,
+   "kind": "cheer"
+  },
+  {
+   "t": 30.83,
+   "kind": "sad"
+  },
+  {
+   "t": 32.48,
+   "kind": "sad"
+  },
+  {
+   "t": 34.03,
+   "kind": "sad"
+  },
+  {
+   "t": 39.27,
+   "kind": "boom"
+  }
+ ],
+ "music": "music_comedy1.mp3",
+ "music_vol": 0.35,
+ "extra_dings": []
+}

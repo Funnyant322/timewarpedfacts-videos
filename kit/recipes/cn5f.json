@@ -1,0 +1,507 @@
+{
+ "out": "cinema_pt5",
+ "voice": "cn5_vo_fast.wav",
+ "words": "cn5_words_fast.json",
+ "end": 50.57,
+ "title": [
+  "Every Type of Person",
+  "at the Cinema",
+  "Explained pt 5"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 6"
+ ],
+ "scenes": [
+  {
+   "img": "cn5_door",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_door",
+   "t": 3.11,
+   "focus": [
+    0.75,
+    0.4
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 6.21,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 7.64,
+   "focus": [
+    0.55,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 9.18,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "cn5_door",
+   "t": 10.55,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_door",
+   "t": 12.59,
+   "focus": [
+    0.76,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cn5_door",
+   "t": 14.34,
+   "focus": [
+    0.77,
+    0.45
+   ],
+   "zoom": [
+    1.9,
+    2.0
+   ]
+  },
+  {
+   "img": "cn5_door",
+   "t": 15.6,
+   "focus": [
+    0.77,
+    0.42
+   ],
+   "zoom": [
+    2.3,
+    2.45
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 16.56,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 18.84,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.15
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 20.2,
+   "focus": [
+    0.5,
+    0.42
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 22.43,
+   "focus": [
+    0.45,
+    0.62
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 23.79,
+   "focus": [
+    0.27,
+    0.68
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 25.19,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cn5_torch",
+   "t": 26.91,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_torch",
+   "t": 29.44,
+   "focus": [
+    0.25,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cn5_seat",
+   "t": 32.16,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_seat",
+   "t": 33.32,
+   "focus": [
+    0.62,
+    0.62
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cn5_seat",
+   "t": 34.78,
+   "focus": [
+    0.4,
+    0.45
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "cn5_seat",
+   "t": 36.14,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "cn5_seat",
+   "t": 38.27,
+   "focus": [
+    0.62,
+    0.6
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "cn3_whisper",
+   "t": 39.99,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn3_whisper",
+   "t": 41.74,
+   "focus": [
+    0.4,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 43.19,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 44.65,
+   "focus": [
+    0.71,
+    0.42
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 45.33,
+   "focus": [
+    0.42,
+    0.48
+   ],
+   "zoom": [
+    1.9,
+    2.05
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 46.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn3_whisper",
+   "t": 48.24,
+   "focus": [
+    0.65,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 6.31,
+   "end": 7.54,
+   "text": "THE MOVIE: STARTED",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 10.75,
+   "end": 12.4,
+   "text": "*CREAK*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 16.66,
+   "end": 19.91,
+   "text": "HIS SEAT: MIDDLE OF THE ROW",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 20.3,
+   "end": 22.15,
+   "text": "sorry. sorry. sorry.",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.5,
+    0.32
+   ]
+  },
+  {
+   "type": "card",
+   "start": 22.52,
+   "end": 23.69,
+   "text": "14 KNEES",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 23.88,
+   "end": 25.1,
+   "text": "2 DRINKS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 25.19,
+   "end": 26.84,
+   "text": "1 POPCORN",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 29.53,
+   "end": 32.06,
+   "text": "*BLINDED*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 33.42,
+   "end": 34.68,
+   "text": "YOUR SEAT.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 36.23,
+   "end": 37.98,
+   "text": "...ONE SEAT.",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 41.74,
+   "end": 43.1,
+   "text": "what did I miss?",
+   "x": 0.55,
+   "y": 0.2,
+   "tail": [
+    0.45,
+    0.3
+   ]
+  },
+  {
+   "type": "card",
+   "start": 43.29,
+   "end": 45.23,
+   "text": "5 MINUTES LATER",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 45.33,
+   "end": 46.3,
+   "text": "TOILET.",
+   "y": 0.62
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 10.75,
+   "kind": "boom"
+  },
+  {
+   "t": 20.3,
+   "kind": "pop"
+  },
+  {
+   "t": 22.52,
+   "kind": "pop"
+  },
+  {
+   "t": 23.88,
+   "kind": "pop"
+  },
+  {
+   "t": 25.19,
+   "kind": "crunch"
+  },
+  {
+   "t": 29.53,
+   "kind": "ding"
+  },
+  {
+   "t": 33.42,
+   "kind": "boom"
+  },
+  {
+   "t": 36.23,
+   "kind": "sad"
+  },
+  {
+   "t": 45.33,
+   "kind": "boom"
+  }
+ ],
+ "extra_dings": []
+}
