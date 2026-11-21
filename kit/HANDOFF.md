@@ -88,3 +88,9 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Template: fr3y.json (Friend pt3: Dunbar's ~150, UC San Diego 2011 spoiler study, CDC 7+ h sleep) and gc3y.json (Group Chat pt3: Gloria Mark UC Irvine ~23 min, phantom vibration 89% of 290 students 2012, planning fallacy Kahneman & Tversky 1979).
 - Voice for ~70 s costs ~1,000-1,050 credits + 165 transcription. Fact pictures from Gemini (free).
 - engine.py cards now auto-shrink long text to fit.
+
+## FINAL FORMAT (21 Nov 2026 16:11, David) — overrides the facts + multi-type sections above
+- Back to the ORIGINAL format: ONE type per part (like Friend pt1 "five minutes away", pt2 "forgot my wallet"). No scientific facts. Pure jokes.
+- Just make each part LONGER with MORE content: more jokes/beats about that one type, more different pictures (new picture every ~3-4 s), ~45-60 s.
+- Keep: calm explainer voice, short calm title at the start in the same take, 4:5 big picture layout, Gemini pictures, speedup 1.03 0.35.
+- The multi-type Friend/Group Chat pt3 videos are NOT to be used as pt3.
