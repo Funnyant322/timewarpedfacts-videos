@@ -1,0 +1,512 @@
+{
+ "out": "friend_pt3",
+ "voice": "fr3y_vo_fast.wav",
+ "words": "fr3y_words_fast.json",
+ "end": 71.66,
+ "title": [
+  "Every Type of Friend",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "fr2_feast",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 3.66,
+   "focus": [
+    0.45,
+    0.55
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "fr3_text",
+   "t": 6.19,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "img": "gc2_cobweb",
+   "t": 9.99,
+   "focus": [
+    0.42,
+    0.55
+   ],
+   "zoom": [
+    1.15,
+    1.4
+   ]
+  },
+  {
+   "img": "fr3_text",
+   "t": 12.13,
+   "focus": [
+    0.62,
+    0.6
+   ],
+   "zoom": [
+    1.25,
+    1.35
+   ]
+  },
+  {
+   "img": "fr3_dunbar",
+   "t": 14.53,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "fr3_dunbar",
+   "t": 19.49,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "fr3_dunbar",
+   "t": 21.22,
+   "focus": [
+    0.78,
+    0.82
+   ],
+   "zoom": [
+    2.0,
+    2.3
+   ]
+  },
+  {
+   "img": "fr3_car",
+   "t": 25.31,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 27.83,
+   "focus": [
+    0.38,
+    0.55
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 29.96,
+   "focus": [
+    0.3,
+    0.52
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 32.57,
+   "focus": [
+    0.48,
+    0.52
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "fr3_spoil2",
+   "t": 33.74,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "fr3_spoil2",
+   "t": 35.78,
+   "focus": [
+    0.36,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_spoil1",
+   "t": 36.68,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_spoil2",
+   "t": 44.18,
+   "focus": [
+    0.68,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 46.21,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 49.43,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 52.34,
+   "focus": [
+    0.6,
+    0.55
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 53.7,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 55.16,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "img": "fr3_zombie",
+   "t": 56.61,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_zombie",
+   "t": 59.57,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 61.37,
+   "focus": [
+    0.68,
+    0.66
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "fr3_car",
+   "t": 63.8,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_car",
+   "t": 67.0,
+   "focus": [
+    0.32,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr2_feast",
+   "t": 69.43,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 10.09,
+   "end": 12.03,
+   "text": "2 YEARS OF SILENCE...",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 12.13,
+   "end": 14.44,
+   "scale": 1.2,
+   "title": "Leo",
+   "title_av": "Leo",
+   "me": "Sam",
+   "clock": "11:42",
+   "msgs": [
+    {
+     "t": 12.76,
+     "from": "Leo",
+     "text": "heyyy"
+    },
+    {
+     "t": 13.63,
+     "from": "Leo",
+     "text": "how've you been??"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 15.8,
+   "end": 19.39,
+   "text": "~150 MEANINGFUL RELATIONSHIPS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 19.49,
+   "end": 21.13,
+   "text": "(DUNBAR'S NUMBER)",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 27.93,
+   "end": 29.86,
+   "text": "SEASON FINALE",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 30.06,
+   "end": 32.48,
+   "text": "DON'T SPOIL IT!",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.4,
+    0.45
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 33.83,
+   "end": 35.68,
+   "text": "wait... you know he dies, right?",
+   "x": 0.55,
+   "y": 0.3,
+   "tail": [
+    0.62,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 38.04,
+   "end": 39.88,
+   "text": "UC SAN DIEGO STUDY, 2011",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 39.98,
+   "end": 44.09,
+   "text": "SPOILED STORIES = ENJOYED MORE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 52.44,
+   "end": 53.6,
+   "text": "11:00 PM",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 53.8,
+   "end": 55.06,
+   "text": "3:00 AM",
+   "y": 0.58
+  },
+  {
+   "type": "card",
+   "start": 55.25,
+   "end": 56.51,
+   "text": "7:00 AM",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 57.0,
+   "end": 59.48,
+   "text": "ADULTS NEED 7+ HOURS OF SLEEP",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 59.96,
+   "end": 61.27,
+   "text": "TONIGHT: 0 HOURS",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 61.47,
+   "end": 63.7,
+   "text": "one more?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.55,
+    0.42
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 67.1,
+   "end": 69.33,
+   "text": "so... can I borrow your car?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.35,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 69.52,
+   "end": 71.66,
+   "text": "WHICH ONE IS YOURS?",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 35.87,
+   "kind": "boom",
+   "gain": 0.5
+  },
+  {
+   "t": 55.25,
+   "kind": "cheer"
+  },
+  {
+   "t": 59.96,
+   "kind": "sad"
+  }
+ ],
+ "extra_dings": []
+}

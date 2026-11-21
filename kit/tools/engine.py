@@ -198,10 +198,14 @@ class Video:
             elif ov["type"] == "banner": self.banner(ov, t, crop)
             elif ov["type"] == "card":
                 dd = ImageDraw.Draw(crop); pop = min(1, (t - ov["start"]) / 0.15)
-                tw = dd.textlength(ov["text"], font=TITLE_F) * (0.8 + 0.2 * pop)
+                cf = TITLE_F
+                for sz in (58, 52, 46, 40, 36):
+                    cf = mont(sz, "Bold")
+                    if dd.textlength(ov["text"], font=cf) <= SW - 120: break
+                tw = dd.textlength(ov["text"], font=cf) * (0.8 + 0.2 * pop)
                 cx, cy = SW / 2, ov.get("y", 0.5) * SH
                 dd.rounded_rectangle((cx - tw / 2 - 30, cy - 50, cx + tw / 2 + 30, cy + 50), 14, fill="white", outline="black", width=5)
-                if pop >= 1: dd.text((cx, cy), ov["text"], font=TITLE_F, fill="black", anchor="mm")
+                if pop >= 1: dd.text((cx, cy), ov["text"], font=cf, fill="black", anchor="mm")
         c.paste(crop, (SX, SY)); d = ImageDraw.Draw(c)
         lines = R["title"]; top = SY + 90
         for i, line in enumerate(lines):

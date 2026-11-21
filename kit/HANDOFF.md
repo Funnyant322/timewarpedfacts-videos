@@ -82,3 +82,9 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Each part = ONE continuous story (e.g. "one night with your friends", "one week in a group chat") where several types appear one after another and link into each other. Must not feel like 3 separate mini-videos: no section title cards per type; use small time cards (11:00 PM, MONDAY) only.
 - Pacing: speedup.py 1.03 0.35 (natural, not rushed).
 - Do NOT use addintro.py anymore.
+
+## Longer + real facts (21 Nov 2026, David)
+- Videos ~70 s. Keep the jokes, but weave in 2-3 REAL, verified facts per video (web-search each one; name the source in the narration and on a card, e.g. "UC IRVINE RESEARCH" / "~23 MIN TO REFOCUS"). Never invent numbers.
+- Template: fr3y.json (Friend pt3: Dunbar's ~150, UC San Diego 2011 spoiler study, CDC 7+ h sleep) and gc3y.json (Group Chat pt3: Gloria Mark UC Irvine ~23 min, phantom vibration 89% of 290 students 2012, planning fallacy Kahneman & Tversky 1979).
+- Voice for ~70 s costs ~1,000-1,050 credits + 165 transcription. Fact pictures from Gemini (free).
+- engine.py cards now auto-shrink long text to fit.

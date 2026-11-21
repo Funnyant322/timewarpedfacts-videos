@@ -1,0 +1,551 @@
+{
+ "out": "group_chat_pt3",
+ "voice": "gc3y_vo.mp3",
+ "words": "gc3y_words.json",
+ "end": 73.2,
+ "title": [
+  "Every Type of Person",
+  "in a Group Chat",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "gc3_bed_buzz",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 4.7,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "gc3_friday",
+   "t": 7.6,
+   "focus": [
+    0.62,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_friday",
+   "t": 10.6,
+   "focus": [
+    0.66,
+    0.42
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc3_friday",
+   "t": 12.9,
+   "focus": [
+    0.5,
+    0.75
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_monday",
+   "t": 15.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "gc3_monday",
+   "t": 17.2,
+   "focus": [
+    0.42,
+    0.55
+   ],
+   "zoom": [
+    1.35,
+    1.45
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 18.7,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 21.1,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_bed_buzz",
+   "t": 24.0,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.15,
+    1.25
+   ]
+  },
+  {
+   "img": "gc3_bed_buzz",
+   "t": 28.4,
+   "focus": [
+    0.38,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 31.4,
+   "focus": [
+    0.42,
+    0.6
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 38.0,
+   "focus": [
+    0.42,
+    0.68
+   ],
+   "zoom": [
+    1.7,
+    1.9
+   ]
+  },
+  {
+   "img": "gc3_phantom",
+   "t": 39.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "gc3_phantom",
+   "t": 43.0,
+   "focus": [
+    0.42,
+    0.62
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_phantom",
+   "t": 44.9,
+   "focus": [
+    0.78,
+    0.75
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "gc3_phantom",
+   "t": 47.3,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "gc3_organiser",
+   "t": 51.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "gc3_organiser",
+   "t": 53.3,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc3_organiser",
+   "t": 56.1,
+   "focus": [
+    0.5,
+    0.33
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "gc3_restaurant",
+   "t": 58.8,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_monday",
+   "t": 61.3,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.15,
+    1.25
+   ]
+  },
+  {
+   "img": "gc3_planning",
+   "t": 63.1,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "gc3_planning",
+   "t": 66.2,
+   "focus": [
+    0.25,
+    0.55
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "gc3_planning",
+   "t": 68.3,
+   "focus": [
+    0.8,
+    0.62
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "gc3_restaurant",
+   "t": 70.8,
+   "focus": [
+    0.55,
+    0.42
+   ],
+   "zoom": [
+    1.7,
+    1.9
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 7.7,
+   "end": 8.55,
+   "text": "FRIDAY",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 8.6,
+   "end": 12.8,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "8:14",
+   "msgs": [
+    {
+     "t": 8.9,
+     "from": "Jay",
+     "text": "who's free tonight?"
+    },
+    {
+     "t": 9.8,
+     "from": "Maya",
+     "text": "me!!"
+    },
+    {
+     "t": 10.4,
+     "from": "Sam",
+     "text": "im in"
+    },
+    {
+     "t": 11.6,
+     "from": "Jay",
+     "text": "leo??"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 15.3,
+   "end": 17.1,
+   "text": "MONDAY, 9:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 17.2,
+   "end": 18.6,
+   "text": "yeah, im down",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 18.9,
+   "end": 20.9,
+   "text": "THE PLANS: 3 DAYS AGO",
+   "y": 0.62
+  },
+  {
+   "type": "phone",
+   "start": 24.1,
+   "end": 31.3,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "12:31",
+   "msgs": [
+    {
+     "t": 26.4,
+     "from": "Leo",
+     "text": "hey"
+    },
+    {
+     "t": 27.4,
+     "from": "Leo",
+     "text": "so"
+    },
+    {
+     "t": 28.4,
+     "from": "Leo",
+     "text": "um"
+    },
+    {
+     "t": 29.6,
+     "from": "Leo",
+     "text": "guess"
+    },
+    {
+     "t": 30.6,
+     "from": "Leo",
+     "text": "what"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 32.6,
+   "end": 35.1,
+   "text": "UC IRVINE RESEARCH",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 35.2,
+   "end": 37.9,
+   "text": "~23 MIN TO REFOCUS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 38.2,
+   "end": 39.8,
+   "text": "HE SENT 15.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 45.2,
+   "end": 47.2,
+   "text": "PHANTOM VIBRATION",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 47.4,
+   "end": 50.8,
+   "text": "89% OF STUDENTS IN ONE STUDY",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 53.4,
+   "end": 56.0,
+   "text": "Guys, dinner Saturday, who's in?!",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.5,
+    0.42
+   ]
+  },
+  {
+   "type": "phone",
+   "start": 56.2,
+   "end": 58.7,
+   "scale": 1.2,
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "9:02",
+   "msgs": [
+    {
+     "t": 56.3,
+     "from": "Maya",
+     "text": "YES"
+    },
+    {
+     "t": 56.8,
+     "from": "Sam",
+     "text": "in!"
+    },
+    {
+     "t": 57.7,
+     "from": "Jay",
+     "text": "booked the table"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 58.9,
+   "end": 61.2,
+   "text": "SATURDAY, 6:00 PM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 61.4,
+   "end": 63.0,
+   "text": "guys... im so tired... rain check?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 63.2,
+   "end": 66.1,
+   "text": "THE PLANNING FALLACY",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 70.9,
+   "end": 73.2,
+   "text": "WHICH ONE IS IN YOURS?",
+   "y": 0.62
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 61.5,
+   "kind": "sad"
+  }
+ ]
+}
