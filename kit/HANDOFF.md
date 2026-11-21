@@ -62,3 +62,11 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Use few [pause] tags in scripts. A shot needs ≥1 s after speedup.
 - Friend pt3 (recipe fr3.json → fr3f.json) is the template for the new style: 3 types, 6 new pictures + 2 reused, ~17 shots, section cards ("THE SPOILER", "11:00 PM"), phone overlay scale 1.2, bubbles, ends on "WHICH ONE IS YOURS?". 36 s after speedup. Cost ~5,300 credits (images with 2 refs cost 812 each, 1 ref 609).
 - For more length, add a 4th type rather than slowing down.
+
+## Free pictures via Gemini app (21 Nov 2026) — preferred over ElevenLabs images
+- Built-in browser, gemini.google.com, account 1234davidteyu@gmail.com (Gemini Plus). Upload menu (+) → Create image; aspect ratio picker → 3:4.
+- Reference: Drive folder "What If Things - Gemini refs" (owned by 12345davidteyu, shared to 1234davidteyu). Attach via + → Drive → search "ref_characters" → select → scroll → Insert. (Page CSP blocks fetch/paste of outside images.)
+- Prompt: "Use the attached pictures as the style and character reference… flat 2D cartoon… [scene]… Vertical portrait, character large. No text."
+- ~20 s per picture. Download: find button "Download full-sized image" → lands in C:\Users\1234d\Downloads\Gemini_Generated_Image_*.jpg (1792x2400, no visible watermark) → device_stage_files.
+- Downloads folder is connected to the session. Use ~3 Gemini tabs in parallel (limit is per account).
+- ElevenLabs now only for voice (~640 credits/video).
