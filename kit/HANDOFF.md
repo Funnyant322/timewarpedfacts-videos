@@ -94,3 +94,9 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Just make each part LONGER with MORE content: more jokes/beats about that one type, more different pictures (new picture every ~3-4 s), ~45-60 s.
 - Keep: calm explainer voice, short calm title at the start in the same take, 4:5 big picture layout, Gemini pictures, speedup 1.03 0.35.
 - The multi-type Friend/Group Chat pt3 videos are NOT to be used as pt3.
+
+## GOLD STANDARD (21 Nov 2026, David: "great video, all videos should be like this")
+- Friend pt3 "one more game friend" (kit/recipes/fr3z.json → fr3zf.json, videos/every_type/every_type_of_friend_pt3.mp4) is THE template for every video.
+- One type, one escalating mini-story told by the calm James voice (~140 words, ~60 s), title line "Every type of X, explained. Part N: the ___." in the same take.
+- ~20 shots, new shot every ~2-3 s: 3-5 new Gemini pictures + reused ones, zooms on faces, time cards (8:00 PM… 5:00 AM), short joke cards ("MISTAKE #1", "LEO: 0 WINS", "IT WAS NOT THE LAST ONE"), speech bubbles for quoted lines, ends on the punchline + "Send this to the friend who…".
+- speedup 1.03 0.35. Cost ≈ 770 voice + 165 transcription.
