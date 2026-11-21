@@ -1,0 +1,408 @@
+{
+ "out": "sibling_pt3",
+ "voice": "sb3n_vo_fast.wav",
+ "words": "sb3n_words_fast.json",
+ "end": 48.19,
+ "title": [
+  "Every Type of Sibling",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "sb3_kitchen",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 3.85,
+   "focus": [
+    0.35,
+    0.5
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "sb3_new",
+   "t": 6.28,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb3_new",
+   "t": 7.83,
+   "focus": [
+    0.62,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "sb3_search",
+   "t": 9.1,
+   "focus": [
+    0.6,
+    0.4
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "sb3_search",
+   "t": 11.33,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb3_search",
+   "t": 13.27,
+   "focus": [
+    0.45,
+    0.35
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 14.34,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 17.83,
+   "focus": [
+    0.35,
+    0.5
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 21.4,
+   "focus": [
+    0.75,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 22.85,
+   "focus": [
+    0.35,
+    0.35
+   ],
+   "zoom": [
+    2.0,
+    2.1
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 23.63,
+   "focus": [
+    0.35,
+    0.62
+   ],
+   "zoom": [
+    2.2,
+    2.3
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 25.48,
+   "focus": [
+    0.35,
+    0.42
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 27.03,
+   "focus": [
+    0.75,
+    0.45
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "sb3_stain",
+   "t": 30.82,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb3_stain",
+   "t": 33.53,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "sb3_stain",
+   "t": 36.64,
+   "focus": [
+    0.5,
+    0.68
+   ],
+   "zoom": [
+    2.2,
+    2.35
+   ]
+  },
+  {
+   "img": "sb3_shoes",
+   "t": 40.52,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "sb3_shoes",
+   "t": 41.88,
+   "focus": [
+    0.3,
+    0.6
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "sb3_shoes",
+   "t": 44.02,
+   "focus": [
+    0.6,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 3.95,
+   "end": 6.18,
+   "text": "THE ONE WHO STEALS YOUR CLOTHES",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 7.93,
+   "end": 9.0,
+   "text": "WORN: ONCE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 9.19,
+   "end": 10.07,
+   "text": "THE NEXT DAY",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 10.17,
+   "end": 11.23,
+   "text": "IT'S GONE.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 13.37,
+   "end": 14.24,
+   "text": "NOTHING.",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 21.4,
+   "end": 22.76,
+   "text": "is that my hoodie?",
+   "x": 0.62,
+   "y": 0.3,
+   "tail": [
+    0.75,
+    0.42
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 22.85,
+   "end": 23.53,
+   "text": "no.",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 23.63,
+   "end": 25.38,
+   "text": "IT HAS YOUR NAME ON THE TAG",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 25.48,
+   "end": 26.93,
+   "text": "we share clothes.",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 27.13,
+   "end": 30.72,
+   "text": "YOU: NEVER ALLOWED TO BORROW THEIRS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 30.91,
+   "end": 33.44,
+   "text": "WEEKS LATER...",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 33.63,
+   "end": 34.7,
+   "text": "STRETCHED.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 34.8,
+   "end": 36.54,
+   "text": "SMELLS LIKE SOMEONE ELSE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 36.74,
+   "end": 40.43,
+   "text": "MYSTERIOUS STAIN",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 40.62,
+   "end": 41.79,
+   "text": "THE NEXT MORNING",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 42.95,
+   "end": 43.92,
+   "text": "SHOES: GONE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 44.12,
+   "end": 48.19,
+   "text": "SEND THIS TO YOUR SIBLING",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 10.17,
+   "kind": "sad"
+  },
+  {
+   "t": 21.5,
+   "kind": "boom",
+   "gain": 0.4
+  },
+  {
+   "t": 36.74,
+   "kind": "sad"
+  }
+ ],
+ "extra_dings": []
+}

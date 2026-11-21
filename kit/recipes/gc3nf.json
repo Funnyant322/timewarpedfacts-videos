@@ -1,0 +1,403 @@
+{
+ "out": "group_chat_pt3",
+ "voice": "gc3n_vo_fast.wav",
+ "words": "gc3n_words_fast.json",
+ "end": 52.46,
+ "title": [
+  "Every Type of Person",
+  "in a Group Chat",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "gc4_typer",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 4.38,
+   "focus": [
+    0.55,
+    0.5
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 6.41,
+   "focus": [
+    0.38,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 9.68,
+   "focus": [
+    0.45,
+    0.65
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "gc3_bed_buzz",
+   "t": 12.83,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.15,
+    1.25
+   ]
+  },
+  {
+   "img": "gc3_bed_buzz",
+   "t": 15.26,
+   "focus": [
+    0.38,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 18.27,
+   "focus": [
+    0.42,
+    0.68
+   ],
+   "zoom": [
+    1.7,
+    1.9
+   ]
+  },
+  {
+   "img": "gc4_meeting",
+   "t": 21.28,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_meeting",
+   "t": 22.71,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc4_meeting",
+   "t": 23.78,
+   "focus": [
+    0.5,
+    0.78
+   ],
+   "zoom": [
+    2.0,
+    2.2
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 25.18,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_scroll",
+   "t": 27.42,
+   "focus": [
+    0.4,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_scroll",
+   "t": 31.06,
+   "focus": [
+    0.38,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 34.84,
+   "focus": [
+    0.38,
+    0.45
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 38.15,
+   "focus": [
+    0.42,
+    0.45
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "gc4_scroll",
+   "t": 41.54,
+   "focus": [
+    0.38,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc3_office",
+   "t": 48.12,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "phone",
+   "start": 6.5,
+   "end": 9.58,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "9:12",
+   "msgs": [
+    {
+     "t": 8.22,
+     "from": "Jay",
+     "text": "what time tomorrow?"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 4.48,
+   "end": 6.31,
+   "text": "THE 15-MESSAGE TEXTER",
+   "y": 0.62
+  },
+  {
+   "type": "phone",
+   "start": 12.83,
+   "end": 18.17,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "12:31",
+   "msgs": [
+    {
+     "t": 12.93,
+     "from": "Leo",
+     "text": "hey"
+    },
+    {
+     "t": 13.81,
+     "from": "Leo",
+     "text": "so"
+    },
+    {
+     "t": 14.68,
+     "from": "Leo",
+     "text": "um"
+    },
+    {
+     "t": 15.75,
+     "from": "Leo",
+     "text": "ok"
+    },
+    {
+     "t": 16.62,
+     "from": "Leo",
+     "text": "so basically"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 18.37,
+   "end": 21.18,
+   "text": "15 TIMES IN A ROW",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 21.38,
+   "end": 22.61,
+   "text": "YOU: IN A MEETING",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 23.87,
+   "end": 25.09,
+   "text": "SILENT MODE: ON",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 25.28,
+   "end": 27.32,
+   "text": "...IT DIDN'T HELP",
+   "y": 0.62
+  },
+  {
+   "type": "phone",
+   "start": 27.42,
+   "end": 41.35,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "12:34",
+   "msgs": [
+    {
+     "t": 28.39,
+     "from": "Leo",
+     "text": "..."
+    },
+    {
+     "t": 31.06,
+     "from": "Leo",
+     "text": "seven"
+    },
+    {
+     "t": 33.19,
+     "from": "Leo",
+     "text": "wait no"
+    },
+    {
+     "t": 36.01,
+     "from": "Leo",
+     "text": "eight"
+    },
+    {
+     "t": 38.15,
+     "from": "Leo",
+     "text": "lol"
+    },
+    {
+     "t": 40.67,
+     "from": "Leo",
+     "text": "anyway"
+    }
+   ]
+  },
+  {
+   "type": "phone",
+   "start": 41.54,
+   "end": 48.02,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "The Squad",
+   "title_av": "Jay",
+   "clock": "12:40",
+   "msgs": [
+    {
+     "t": 43.26,
+     "from": "Sam",
+     "text": "ok, eight"
+    },
+    {
+     "t": 46.37,
+     "from": "Leo",
+     "text": "wait, which day?"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 48.21,
+   "end": 52.46,
+   "text": "SEND THIS TO HIM",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 22.71,
+   "kind": "sad"
+  },
+  {
+   "t": 46.47,
+   "kind": "boom",
+   "gain": 0.4
+  }
+ ],
+ "extra_dings": []
+}
