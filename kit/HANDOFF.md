@@ -112,3 +112,9 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Gemini image limit on 1234davidteyu hit after ~10 pictures (shared with other sessions); resets ~20:09 SGT. Plan around ~10 Gemini pictures per window.
 - Metricool media: raw.githubusercontent URL on `main` can 404 for a few minutes after push (CDN cache); use the commit-SHA URL (…/timewarpedfacts-videos/<sha>/videos/…) and check content-length.
 - Gemini helper: downloads sometimes don't fire; check Downloads with device_bash `find -newermt` and re-click the Nth "Download full-sized image" button.
+
+## 21 Nov 20:25 SGT — Tue 24 Nov COMPLETE
+- All 4 pt5 scheduled: Friend 09:00 (436550741), Group Chat 13:00 (436550757), Cinema "shows up late" 17:00 (436626194, no music, sfx only), Sibling "lives in the bathroom" 21:00 (436626219, music). Recipes: kit/recipes/mk5.py.
+- NEXT: Wed 25 Nov = pt6 of Friend, Group Chat, Cinema, Sibling (footer "Follow for Part 7"). PLAN.md ideas left: Friend "only texts when they need something"; Sibling "never gets in trouble". Or move to Public Transport/Supermarket/Student/Teacher as PLAN says.
+- Gemini download gotcha: some "Download full-sized image" clicks open a Windows Save-As box on David's PC (he has to press Save; he saved some as b.jpg / me.jpg). Always check Downloads with device_bash find -newermt and match by size/content. Gemini picture limit ~10 per window, then ~1h40m wait.
+- Built-in browser pane is narrow; set resize_window 1280x900 before clicking Gemini's menus (reset after), or click menu items via JS.
