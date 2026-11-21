@@ -105,3 +105,10 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Music, swoosh and layout are judgment calls, NOT fixed. Use music only when it suits the video; pick or make a different track when another mood fits (kit/music_comedy1.mp3 = light playful comedy, one option). Recipe keys: "music", "music_vol" (~0.35, steady, no ducking - ducking sounded unnatural).
 - Swoosh only on some picture changes, never every cut (engine default "whoosh": "change"; set false to turn off).
 - Formatting (cards, bubbles, phone overlays, layout) can change per video when it fits the story better.
+
+## 21 Nov 18:35 SGT — Tuesday 24 Nov (pt5) status
+- DONE + scheduled: Friend pt5 "let's plan a trip" (09:00, Metricool 436550741), Group Chat pt5 "replies k" (13:00, 436550757). Recipes kit/recipes/mk5.py (fr5, gc5), music_comedy1 at 0.35.
+- Voice already made for Cinema pt5 "shows up late" and Sibling pt5 "lives in the bathroom" (ElevenLabs 2nd account flows 7Dwdeg3YT6cD6m2w4eFQ and 8SVxpBsv3DIbYrCNkkdL); pictures still to make.
+- Gemini image limit on 1234davidteyu hit after ~10 pictures (shared with other sessions); resets ~20:09 SGT. Plan around ~10 Gemini pictures per window.
+- Metricool media: raw.githubusercontent URL on `main` can 404 for a few minutes after push (CDN cache); use the commit-SHA URL (…/timewarpedfacts-videos/<sha>/videos/…) and check content-length.
+- Gemini helper: downloads sometimes don't fire; check Downloads with device_bash `find -newermt` and re-click the Nth "Download full-sized image" button.
