@@ -1,0 +1,516 @@
+{
+ "out": "friend_pt5",
+ "voice": "fr5_vo.mp3",
+ "words": "fr5_words.json",
+ "end": 55.0,
+ "title": [
+  "Every Type of Friend",
+  "Explained pt 5"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 6"
+ ],
+ "scenes": [
+  {
+   "img": "fr5_midnight",
+   "t": 0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr5_midnight",
+   "t": 3.0,
+   "focus": [
+    0.6,
+    0.35
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "fr5_midnight",
+   "t": 6.5,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "fr5_midnight",
+   "t": 8.8,
+   "focus": [
+    0.65,
+    0.35
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "fr5_midnight",
+   "t": 11.2,
+   "focus": [
+    0.25,
+    0.65
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 12.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 16.4,
+   "focus": [
+    0.3,
+    0.25
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 18.3,
+   "focus": [
+    0.25,
+    0.2
+   ],
+   "zoom": [
+    2.1,
+    2.25
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 19.1,
+   "focus": [
+    0.45,
+    0.2
+   ],
+   "zoom": [
+    2.1,
+    2.25
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 19.9,
+   "focus": [
+    0.3,
+    0.45
+   ],
+   "zoom": [
+    1.9,
+    2.0
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 21.7,
+   "focus": [
+    0.82,
+    0.5
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr5_links",
+   "t": 23.6,
+   "focus": [
+    0.42,
+    0.45
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr5_sheet",
+   "t": 25.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr5_sheet",
+   "t": 27.9,
+   "focus": [
+    0.3,
+    0.62
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr5_deposit",
+   "t": 30.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr5_deposit",
+   "t": 32.2,
+   "focus": [
+    0.33,
+    0.3
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr5_deposit",
+   "t": 34.2,
+   "focus": [
+    0.68,
+    0.62
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "gc2_cobweb",
+   "t": 35.3,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "fr5_midnight",
+   "t": 38.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.15,
+    1.2
+   ]
+  },
+  {
+   "img": "fr5_cafe",
+   "t": 41.6,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr5_cafe",
+   "t": 44.6,
+   "focus": [
+    0.65,
+    0.4
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr5_cafe",
+   "t": 47.9,
+   "focus": [
+    0.64,
+    0.38
+   ],
+   "zoom": [
+    1.95,
+    2.1
+   ]
+  },
+  {
+   "img": "fr5_cafe",
+   "t": 50.6,
+   "focus": [
+    0.32,
+    0.38
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "fr5_cafe",
+   "t": 52.6,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 6.6,
+   "end": 8.6,
+   "text": "12:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 8.8,
+   "end": 11.1,
+   "text": "guys. we need to go on a trip.",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.68,
+    0.3
+   ]
+  },
+  {
+   "type": "card",
+   "start": 11.3,
+   "end": 12.8,
+   "text": "EVERYONE: \"yes\"",
+   "y": 0.62
+  },
+  {
+   "type": "phone",
+   "start": 13.0,
+   "end": 21.6,
+   "scale": 1.2,
+   "side": "left",
+   "group": true,
+   "me": "Sam",
+   "title": "BALI TRIP!!!",
+   "title_av": "Leo",
+   "clock": "12:04",
+   "msgs": [
+    {
+     "t": 13.1,
+     "from": "Leo",
+     "text": "BALI TRIP!!!"
+    },
+    {
+     "t": 16.5,
+     "from": "Leo",
+     "text": "villa.com/..."
+    },
+    {
+     "t": 17.0,
+     "from": "Leo",
+     "text": "flights.com/..."
+    },
+    {
+     "t": 17.5,
+     "from": "Leo",
+     "text": "boats4u.com/..."
+    },
+    {
+     "t": 18.0,
+     "from": "Leo",
+     "text": "+37 more links"
+    }
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 21.8,
+   "end": 23.5,
+   "text": "when?",
+   "x": 0.78,
+   "y": 0.24,
+   "tail": [
+    0.8,
+    0.36
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 23.7,
+   "end": 25.3,
+   "text": "soon.",
+   "x": 0.45,
+   "y": 0.22,
+   "tail": [
+    0.45,
+    0.34
+   ]
+  },
+  {
+   "type": "card",
+   "start": 25.5,
+   "end": 27.8,
+   "text": "WEEK 1",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 27.9,
+   "end": 30.8,
+   "text": "WEEK 2: COLOURS",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 31.0,
+   "end": 32.1,
+   "text": "WEEK 3",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 32.3,
+   "end": 34.1,
+   "text": "\"deposit pls\"",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 34.3,
+   "end": 35.2,
+   "text": "*silence*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 35.4,
+   "end": 38.1,
+   "text": "MONTH 2",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 38.3,
+   "end": 41.5,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "bali??",
+   "title_av": "Leo",
+   "clock": "6 months later",
+   "msgs": [
+    {
+     "t": 38.4,
+     "from": "Maya",
+     "text": "renamed the group"
+    },
+    {
+     "t": 39.8,
+     "from": "Maya",
+     "text": "bali??"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 41.7,
+   "end": 44.5,
+   "text": "1 YEAR LATER",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 47.9,
+   "end": 50.5,
+   "text": "guys. we need to go on a trip.",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.62,
+    0.32
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 13.1,
+   "kind": "pop"
+  },
+  {
+   "t": 16.5,
+   "kind": "pop"
+  },
+  {
+   "t": 17.0,
+   "kind": "pop"
+  },
+  {
+   "t": 17.5,
+   "kind": "pop"
+  },
+  {
+   "t": 18.0,
+   "kind": "pop"
+  },
+  {
+   "t": 34.3,
+   "kind": "sad"
+  },
+  {
+   "t": 39.8,
+   "kind": "pop"
+  },
+  {
+   "t": 48.0,
+   "kind": "boom"
+  }
+ ],
+ "music": "music_comedy1.mp3",
+ "music_vol": 0.35
+}

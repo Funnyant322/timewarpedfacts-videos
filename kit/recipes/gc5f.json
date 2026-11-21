@@ -1,0 +1,618 @@
+{
+ "out": "group_chat_pt5",
+ "voice": "gc5_vo_fast.wav",
+ "words": "gc5_words_fast.json",
+ "end": 54.06,
+ "title": [
+  "Every Type of Person",
+  "in a Group Chat",
+  "Explained pt 5"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 6"
+ ],
+ "scenes": [
+  {
+   "img": "gc5_typing",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 3.19,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 6.88,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 8.63,
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 11.9,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "gc5_lazy",
+   "t": 13.65,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_lazy",
+   "t": 15.16,
+   "focus": [
+    0.45,
+    0.62
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 16.22,
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc5_lazy",
+   "t": 17.68,
+   "focus": [
+    0.5,
+    0.7
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 19.14,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 21.56,
+   "focus": [
+    0.5,
+    0.75
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 23.35,
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 24.66,
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 25.97,
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 27.59,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 29.63,
+   "focus": [
+    0.45,
+    0.3
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 30.89,
+   "focus": [
+    0.55,
+    0.3
+   ],
+   "zoom": [
+    1.9,
+    2.0
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 31.96,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    2.1,
+    2.2
+   ]
+  },
+  {
+   "img": "gc5_committee",
+   "t": 33.13,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_committee",
+   "t": 35.07,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 36.4,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc5_lazy",
+   "t": 39.41,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 41.25,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc5_committee",
+   "t": 42.68,
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "gc5_fine",
+   "t": 44.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_fine",
+   "t": 46.19,
+   "focus": [
+    0.78,
+    0.45
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "gc5_fine",
+   "t": 47.84,
+   "focus": [
+    0.3,
+    0.3
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "gc5_fine",
+   "t": 50.56,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "phone",
+   "start": 6.98,
+   "end": 13.55,
+   "scale": 1.2,
+   "side": "right",
+   "group": false,
+   "me": "Sam",
+   "title": "Leo",
+   "title_av": "Leo",
+   "clock": "11:42 PM",
+   "msgs": [
+    {
+     "t": 8.73,
+     "from": "Sam",
+     "text": "hey so..."
+    },
+    {
+     "t": 9.5,
+     "from": "Sam",
+     "text": "I've been thinking"
+    },
+    {
+     "t": 10.06,
+     "from": "Sam",
+     "text": "about everything"
+    },
+    {
+     "t": 11.03,
+     "from": "Sam",
+     "text": "and our plans..."
+    },
+    {
+     "t": 12.0,
+     "from": "Sam",
+     "text": "I'm really sorry"
+    },
+    {
+     "t": 13.26,
+     "from": "Sam",
+     "text": "(+9 paragraphs)"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 14.96,
+   "end": 16.13,
+   "text": "typing...",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 16.32,
+   "end": 17.58,
+   "text": "...",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 17.78,
+   "end": 19.04,
+   "text": "typing...",
+   "y": 0.62
+  },
+  {
+   "type": "phone",
+   "start": 19.14,
+   "end": 22.26,
+   "scale": 1.2,
+   "side": "right",
+   "group": false,
+   "me": "Sam",
+   "title": "Leo",
+   "title_av": "Leo",
+   "clock": "11:58 PM",
+   "msgs": [
+    {
+     "t": 21.56,
+     "from": "Leo",
+     "text": "k"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 22.31,
+   "end": 23.25,
+   "text": "JUST K.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 23.35,
+   "end": 24.56,
+   "text": "NOT \"ok\"",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 24.66,
+   "end": 25.87,
+   "text": "NOT \"okay\"",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 25.97,
+   "end": 27.5,
+   "text": "NO FULL STOP",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 27.69,
+   "end": 29.53,
+   "text": "READ: 11 TIMES",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 29.63,
+   "end": 30.8,
+   "text": "ANGRY?",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 30.89,
+   "end": 31.86,
+   "text": "BUSY?",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 31.96,
+   "end": 33.03,
+   "text": "OKAY?",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 35.17,
+   "end": 36.3,
+   "text": "EMERGENCY MEETING",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 36.5,
+   "end": 44.34,
+   "scale": 1.2,
+   "side": "right",
+   "group": false,
+   "me": "Sam",
+   "title": "Leo",
+   "title_av": "Leo",
+   "clock": "1:58 AM",
+   "msgs": [
+    {
+     "t": 36.88,
+     "from": "Sam",
+     "text": "are you mad?"
+    },
+    {
+     "t": 40.67,
+     "from": "Leo",
+     "text": "no."
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 36.5,
+   "end": 38.24,
+   "text": "2 HOURS LATER",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 41.74,
+   "end": 42.61,
+   "text": "WITH A FULL STOP.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 42.78,
+   "end": 44.34,
+   "text": "HE'S MAD.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 44.5,
+   "end": 46.1,
+   "text": "NEXT DAY",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 46.19,
+   "end": 47.75,
+   "text": "hey man!",
+   "x": 0.75,
+   "y": 0.24,
+   "tail": [
+    0.78,
+    0.36
+   ]
+  },
+  {
+   "type": "card",
+   "start": 47.94,
+   "end": 50.37,
+   "text": "\"what are you talking about?\"",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 15.16,
+   "kind": "pop"
+  },
+  {
+   "t": 17.78,
+   "kind": "pop"
+  },
+  {
+   "t": 21.66,
+   "kind": "ding"
+  },
+  {
+   "t": 22.41,
+   "kind": "boom"
+  },
+  {
+   "t": 27.69,
+   "kind": "pop"
+  },
+  {
+   "t": 35.17,
+   "kind": "pop"
+  },
+  {
+   "t": 36.88,
+   "kind": "pop"
+  },
+  {
+   "t": 40.67,
+   "kind": "ding"
+  },
+  {
+   "t": 42.78,
+   "kind": "boom"
+  },
+  {
+   "t": 47.94,
+   "kind": "sad"
+  }
+ ],
+ "music": "music_comedy1.mp3",
+ "music_vol": 0.35,
+ "extra_dings": []
+}
