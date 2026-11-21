@@ -70,3 +70,6 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - ~20 s per picture. Download: find button "Download full-sized image" → lands in C:\Users\1234d\Downloads\Gemini_Generated_Image_*.jpg (1792x2400, no visible watermark) → device_stage_files.
 - Downloads folder is connected to the session. Use ~3 Gemini tabs in parallel (limit is per account).
 - ElevenLabs now only for voice (~640 credits/video).
+- Gemini downloads gotchas: the other Claude session also saves Gemini pictures to Downloads — only use files you clicked (check timestamps + content). Some downloads stay as *.tmp (full JPEG inside, usable). If a download never arrives, reuse another picture. Pictures are 1792x2400 (3:4): crop top/bottom to 4:5 and resize to 1080x1350 into img/.
+- In-page helper: window.gemGen(prompt) (set via javascript_tool) types prompt with execCommand insertText, clicks Send, waits for the new image, clicks "Download full-sized image". Max 2 per JS call (45 s tool timeout).
+- Group Chat pt3 (gc3.json) made this way: 7 Gemini pictures, voice 546 credits (+165 for transcription this time).
