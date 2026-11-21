@@ -1,0 +1,451 @@
+{
+ "out": "friend_pt3",
+ "voice": "fr3z_vo_fast.wav",
+ "words": "fr3z_words_fast.json",
+ "end": 59.26,
+ "title": [
+  "Every Type of Friend",
+  "Explained pt 3"
+ ],
+ "footer": [
+  "Follow for",
+  "Part 4"
+ ],
+ "scenes": [
+  {
+   "img": "fr3_game_night",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 3.68,
+   "focus": [
+    0.4,
+    0.55
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr3_door",
+   "t": 5.75,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_door",
+   "t": 8.85,
+   "focus": [
+    0.38,
+    0.4
+   ],
+   "zoom": [
+    1.5,
+    1.65
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 11.38,
+   "focus": [
+    0.6,
+    0.55
+   ],
+   "zoom": [
+    1.8,
+    1.9
+   ]
+  },
+  {
+   "img": "fr3_beg",
+   "t": 12.2,
+   "focus": [
+    0.7,
+    0.35
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 15.4,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 18.96,
+   "focus": [
+    0.6,
+    0.55
+   ],
+   "zoom": [
+    1.7,
+    1.8
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 20.03,
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "zoom": [
+    2.2,
+    2.4
+   ]
+  },
+  {
+   "img": "fr3_beg",
+   "t": 22.37,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "fr3_beg",
+   "t": 25.28,
+   "focus": [
+    0.72,
+    0.35
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 28.58,
+   "focus": [
+    0.62,
+    0.5
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "fr3_game_night",
+   "t": 32.17,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "fr3_beg",
+   "t": 34.02,
+   "focus": [
+    0.3,
+    0.62
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 40.77,
+   "focus": [
+    0.35,
+    0.85
+   ],
+   "zoom": [
+    2.0,
+    2.15
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 43.58,
+   "focus": [
+    0.68,
+    0.66
+   ],
+   "zoom": [
+    1.6,
+    1.7
+   ]
+  },
+  {
+   "img": "fr3_birds",
+   "t": 46.11,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "img": "fr3_birds",
+   "t": 47.71,
+   "focus": [
+    0.68,
+    0.25
+   ],
+   "zoom": [
+    2.0,
+    2.2
+   ]
+  },
+  {
+   "img": "fr3_zombie",
+   "t": 49.07,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "fr3_game_sunrise",
+   "t": 50.96,
+   "focus": [
+    0.72,
+    0.55
+   ],
+   "zoom": [
+    1.7,
+    1.85
+   ]
+  },
+  {
+   "img": "fr3_birds",
+   "t": 55.28,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 7.5,
+   "end": 8.76,
+   "text": "8:00 PM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 8.95,
+   "end": 11.28,
+   "text": "just one quick game",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.42,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 11.43,
+   "end": 12.16,
+   "text": "YOU WIN",
+   "y": 0.6
+  },
+  {
+   "type": "bubble",
+   "start": 12.3,
+   "end": 15.33,
+   "text": "rematch. for fairness.",
+   "x": 0.32,
+   "y": 0.28,
+   "tail": [
+    0.48,
+    0.38
+   ]
+  },
+  {
+   "type": "card",
+   "start": 15.5,
+   "end": 16.76,
+   "text": "11:00 PM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 16.85,
+   "end": 18.86,
+   "text": "one more game, then we sleep",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.45,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 20.13,
+   "end": 22.26,
+   "text": "MISTAKE #1",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 22.42,
+   "end": 23.73,
+   "text": "1:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 23.83,
+   "end": 25.18,
+   "text": "LEO: 0 WINS",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 28.63,
+   "end": 29.75,
+   "text": "3:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 29.84,
+   "end": 32.08,
+   "text": "okay okay... last one",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.4,
+    0.42
+   ]
+  },
+  {
+   "type": "card",
+   "start": 32.27,
+   "end": 33.92,
+   "text": "IT WAS NOT THE LAST ONE",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 35.67,
+   "end": 36.83,
+   "text": "best of 3?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.35,
+    0.45
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 36.88,
+   "end": 37.85,
+   "text": "best of 5?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.35,
+    0.45
+   ]
+  },
+  {
+   "type": "bubble",
+   "start": 37.9,
+   "end": 40.67,
+   "text": "best of... whatever ends this?",
+   "x": 0.5,
+   "y": 0.3,
+   "tail": [
+    0.35,
+    0.45
+   ]
+  },
+  {
+   "type": "card",
+   "start": 40.82,
+   "end": 43.49,
+   "text": "5:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 49.17,
+   "end": 50.86,
+   "text": "WORK IN 2 HOURS",
+   "y": 0.62
+  },
+  {
+   "type": "bubble",
+   "start": 54.12,
+   "end": 55.28,
+   "text": "one more?",
+   "x": 0.28,
+   "y": 0.3,
+   "tail": [
+    0.5,
+    0.4
+   ]
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 11.43,
+   "kind": "cheer"
+  },
+  {
+   "t": 22.47,
+   "kind": "sad"
+  },
+  {
+   "t": 42.51,
+   "kind": "sad"
+  }
+ ],
+ "extra_dings": []
+}
