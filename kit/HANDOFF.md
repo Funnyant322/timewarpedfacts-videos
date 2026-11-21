@@ -101,6 +101,7 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - ~20 shots, new shot every ~2-3 s: 3-5 new Gemini pictures + reused ones, zooms on faces, time cards (8:00 PM… 5:00 AM), short joke cards ("MISTAKE #1", "LEO: 0 WINS", "IT WAS NOT THE LAST ONE"), speech bubbles for quoted lines, ends on the punchline + "Send this to the friend who…".
 - speedup 1.03 0.35. Cost ≈ 770 voice + 165 transcription.
 
-## Audio rules (David, 21 Nov)
-- Background music on every video: kit/music_comedy1.mp3 (ElevenLabs music, reuse it). Recipe keys: "music": "music_comedy1.mp3", "music_vol": 0.35. Steady level, no ducking (ducking sounded unnatural).
-- Swoosh only when the picture changes to a different image (engine default "whoosh": "change"), not on every zoom/cut.
+## Audio & style rules (David, 21 Nov)
+- Music, swoosh and layout are judgment calls, NOT fixed. Use music only when it suits the video; pick or make a different track when another mood fits (kit/music_comedy1.mp3 = light playful comedy, one option). Recipe keys: "music", "music_vol" (~0.35, steady, no ducking - ducking sounded unnatural).
+- Swoosh only on some picture changes, never every cut (engine default "whoosh": "change"; set false to turn off).
+- Formatting (cards, bubbles, phone overlays, layout) can change per video when it fits the story better.
