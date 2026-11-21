@@ -75,3 +75,10 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Group Chat pt3 (gc3.json) made this way: 7 Gemini pictures, voice 546 credits (+165 for transcription this time).
 - Quick spoken title (David 21 Nov): after speedup, add a fast intro clip: generate "[energetic, quick] Every type of X, part N!" (~50-60 credits), then `python3 kit/tools/addintro.py rec_f.json intro.mp3 rec_i.json "Every type of X, part N!"` and render rec_i.json. ~2 s, then straight into the first type.
 - Gemini "Deeper analysis (4 Neon)" model is LOCKED on 1234davidteyu@gmail.com (lock icon) — only Auto / Everyday help (4 Hydrogen) available there.
+
+## FORMAT DECISION (21 Nov 2026, David) — supersedes "3-4 types per video" and the separate quick intro
+- It is an EXPLAINER video. Calm, clear explainer narration (James), same voice/tone the whole way. No "[energetic]" tags, no separately generated intro clip (it sounded rushed/angsty).
+- Start the SAME voice take with a short calm title: "Every type of friend, explained. Part three." then straight into the content.
+- Each part = ONE continuous story (e.g. "one night with your friends", "one week in a group chat") where several types appear one after another and link into each other. Must not feel like 3 separate mini-videos: no section title cards per type; use small time cards (11:00 PM, MONDAY) only.
+- Pacing: speedup.py 1.03 0.35 (natural, not rushed).
+- Do NOT use addintro.py anymore.
