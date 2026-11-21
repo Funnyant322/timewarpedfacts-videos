@@ -51,3 +51,7 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - Group Chat pt 2 felt like the same picture too long and too little content. Bigger channels pack in more.
 - From Part 3 on: 3-4 types (or 3-4 beats) per video, a NEW picture every ~3-4 seconds (about 10-14 different pictures per 50-60 s video), no picture on screen longer than ~5 s. Zooms/pans only as extra motion, not as a substitute for new pictures.
 - Cost estimate ~609 credits per picture + voice, so roughly 7,000-9,000 credits per video.
+
+## Fast start (21 Nov 2026, David: intro too slow, viewers swipe)
+- NO spoken intro ("Every type of X explained… part two:" took ~5 s). The title is on screen already. The first spoken words must be the first type/joke, within the first second.
+- Cinema pt2 and Sibling pt2 were re-cut (videos/every_type/*_pt2_fast.mp4) to start at the first type.
