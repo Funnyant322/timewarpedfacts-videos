@@ -1,3 +1,5 @@
+> **22 Nov 2026 RULE: make pictures in Google Flow (labs.google/flow, Nano Banana), not the Gemini chat. See CLAUDE.md.**
+
 # What If Things — handoff for the next Claude session (written 20 Nov 2026, 22:15 SGT)
 
 Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants short plain-language answers, never invent numbers, check every fact).
