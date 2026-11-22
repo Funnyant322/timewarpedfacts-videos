@@ -1,0 +1,408 @@
+{
+ "out": "group_chat_pt6",
+ "voice": "gc6_vo_fast.wav",
+ "words": "gc6_words_fast.json",
+ "end": 47.11,
+ "title": [
+  "Every Type of Person",
+  "in a Group Chat",
+  "Explained pt 6"
+ ],
+ "footer": [
+  "Follow for",
+  "more"
+ ],
+ "scenes": [
+  {
+   "img": "gc4_scroll",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_phantom",
+   "t": 4.73,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 7.83,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 11.57,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 14.55,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 19.1,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 20.17,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "gc5_committee",
+   "t": 21.52,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_committee",
+   "t": 23.83,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.15,
+    1.25
+   ]
+  },
+  {
+   "img": "gc5_typing",
+   "t": 27.22,
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 30.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 32.84,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "gc4_typer",
+   "t": 34.2,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc3_cafe",
+   "t": 37.31,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "gc5_shock",
+   "t": 39.83,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc4_laugh",
+   "t": 40.81,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "gc4_scroll",
+   "t": 41.96,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "phone",
+   "start": 7.92,
+   "end": 19.0,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "Squad",
+   "title_av": "Leo",
+   "clock": "9:14 PM",
+   "msgs": [
+    {
+     "t": 10.03,
+     "from": "Maya",
+     "text": "pineapple on pizza is elite"
+    },
+    {
+     "t": 10.81,
+     "from": "Sam",
+     "text": "absolutely not"
+    },
+    {
+     "t": 12.25,
+     "from": "Ben",
+     "text": "[voice note 7:02]"
+    },
+    {
+     "t": 15.82,
+     "from": "Leo",
+     "text": "k"
+    },
+    {
+     "t": 17.63,
+     "from": "Leo",
+     "text": "*left the group*"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 19.19,
+   "end": 20.07,
+   "text": "SILENCE.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 21.62,
+   "end": 23.73,
+   "text": "12 PEOPLE. STARING.",
+   "y": 0.34
+  },
+  {
+   "type": "phone",
+   "start": 23.92,
+   "end": 30.81,
+   "scale": 1.2,
+   "side": "right",
+   "group": true,
+   "me": "Sam",
+   "title": "Squad",
+   "title_av": "Leo",
+   "clock": "9:20 PM",
+   "msgs": [
+    {
+     "t": 24.89,
+     "from": "Maya",
+     "text": "should we add him back?"
+    },
+    {
+     "t": 27.22,
+     "from": "Ben",
+     "text": "no."
+    },
+    {
+     "t": 29.35,
+     "from": "Sam",
+     "text": "*added Leo*"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "start": 27.99,
+   "end": 29.25,
+   "text": "5 MINUTES LATER",
+   "y": 0.2
+  },
+  {
+   "type": "bubble",
+   "start": 32.94,
+   "end": 34.11,
+   "text": "what did I miss?",
+   "x": 0.5,
+   "y": 0.2,
+   "tail": [
+    0.5,
+    0.34
+   ]
+  },
+  {
+   "type": "card",
+   "start": 34.4,
+   "end": 37.21,
+   "text": "*like nothing happened*",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 37.41,
+   "end": 38.57,
+   "text": "NEXT WEEK",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 38.67,
+   "end": 39.74,
+   "text": "SAME ARGUMENT",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 39.83,
+   "end": 40.71,
+   "text": "SAME EXIT",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 40.81,
+   "end": 41.86,
+   "text": "SAME COMEBACK",
+   "y": 0.62
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 10.03,
+   "kind": "pop"
+  },
+  {
+   "t": 10.81,
+   "kind": "pop"
+  },
+  {
+   "t": 12.25,
+   "kind": "pop"
+  },
+  {
+   "t": 15.82,
+   "kind": "ding"
+  },
+  {
+   "t": 17.63,
+   "kind": "boom"
+  },
+  {
+   "t": 19.19,
+   "kind": "sad"
+  },
+  {
+   "t": 24.89,
+   "kind": "pop"
+  },
+  {
+   "t": 27.22,
+   "kind": "ding"
+  },
+  {
+   "t": 29.35,
+   "kind": "pop"
+  },
+  {
+   "t": 32.94,
+   "kind": "ding"
+  },
+  {
+   "t": 39.83,
+   "kind": "boom"
+  }
+ ],
+ "music": "music_comedy1.mp3",
+ "music_vol": 0.35,
+ "extra_dings": []
+}

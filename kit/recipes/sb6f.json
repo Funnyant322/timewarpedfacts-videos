@@ -1,0 +1,270 @@
+{
+ "out": "sibling_pt6",
+ "voice": "sb6_vo_fast.wav",
+ "words": "sb6_words_fast.json",
+ "end": 36.03,
+ "title": [
+  "Every Type of Sibling",
+  "Explained pt 6"
+ ],
+ "footer": [
+  "Follow for",
+  "more"
+ ],
+ "scenes": [
+  {
+   "img": "sb4_mirror",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_mirror",
+   "t": 3.8,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 7.78,
+   "focus": [
+    0.65,
+    0.45
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "sb2_snitch",
+   "t": 9.23,
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.3,
+    1.4
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 10.59,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_knock",
+   "t": 12.63,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb3_kitchen",
+   "t": 14.23,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_walk",
+   "t": 17.68,
+   "focus": [
+    0.7,
+    0.35
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "fr3_beg",
+   "t": 20.11,
+   "focus": [
+    0.75,
+    0.25
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 23.21,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb5_mum",
+   "t": 24.48,
+   "focus": [
+    0.35,
+    0.4
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "gc3_bed_buzz",
+   "t": 26.03,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "sb4_jacket",
+   "t": 29.14,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "sb4_mirror",
+   "t": 31.47,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 7.87,
+   "end": 9.14,
+   "text": "YOUR HOODIE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 14.33,
+   "end": 17.58,
+   "text": "THE TV REMOTE: WAR",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 20.88,
+   "end": 23.12,
+   "text": "*SCARIEST PERSON ALIVE*",
+   "y": 0.34
+  },
+  {
+   "type": "bubble",
+   "start": 24.67,
+   "end": 25.93,
+   "text": "it was me too.",
+   "x": 0.4,
+   "y": 0.2,
+   "tail": [
+    0.35,
+    0.32
+   ]
+  },
+  {
+   "type": "card",
+   "start": 26.13,
+   "end": 29.04,
+   "text": "2:00 AM",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 29.23,
+   "end": 31.37,
+   "text": "STILL YOUR HOODIE.",
+   "y": 0.62
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 8.07,
+   "kind": "pop"
+  },
+  {
+   "t": 9.52,
+   "kind": "ding"
+  },
+  {
+   "t": 12.83,
+   "kind": "pop"
+  },
+  {
+   "t": 15.01,
+   "kind": "crunch"
+  },
+  {
+   "t": 20.79,
+   "kind": "boom"
+  },
+  {
+   "t": 24.67,
+   "kind": "ding"
+  },
+  {
+   "t": 26.32,
+   "kind": "sad"
+  },
+  {
+   "t": 29.72,
+   "kind": "pop"
+  }
+ ],
+ "music": "music_comedy1.mp3",
+ "music_vol": 0.35,
+ "extra_dings": []
+}

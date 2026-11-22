@@ -1,0 +1,425 @@
+{
+ "out": "cinema_pt6",
+ "voice": "cn6_vo_fast.wav",
+ "words": "cn6_words_fast.json",
+ "end": 47.25,
+ "title": [
+  "Every Type of Person",
+  "at the Cinema",
+  "Explained pt 6"
+ ],
+ "footer": [
+  "Follow for",
+  "more"
+ ],
+ "scenes": [
+  {
+   "img": "cinema_quiet",
+   "t": 0.0,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 4.56,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 8.64,
+   "focus": [
+    0.55,
+    0.35
+   ],
+   "zoom": [
+    1.4,
+    1.5
+   ]
+  },
+  {
+   "img": "cn2_sun",
+   "t": 9.9,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn2_behind",
+   "t": 11.46,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 13.47,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 14.73,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.3,
+    1.35
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 15.48,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.55,
+    1.6
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 16.25,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.8,
+    1.85
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 17.0,
+   "focus": [
+    0.35,
+    0.65
+   ],
+   "zoom": [
+    1.6,
+    1.75
+   ]
+  },
+  {
+   "img": "cinema_quiet",
+   "t": 20.66,
+   "focus": [
+    0.6,
+    0.4
+   ],
+   "zoom": [
+    1.8,
+    1.95
+   ]
+  },
+  {
+   "img": "cn4_thumbs",
+   "t": 25.58,
+   "focus": [
+    0.4,
+    0.6
+   ],
+   "zoom": [
+    1.2,
+    1.3
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 28.13,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.4,
+    1.55
+   ]
+  },
+  {
+   "img": "cn2_behind",
+   "t": 29.78,
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.3,
+    1.45
+   ]
+  },
+  {
+   "img": "cn5_row",
+   "t": 33.76,
+   "focus": [
+    0.45,
+    0.6
+   ],
+   "zoom": [
+    1.5,
+    1.6
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 34.83,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "img": "cn5_toilet",
+   "t": 36.77,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "img": "cn3_glare",
+   "t": 38.51,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "img": "cn4_happy",
+   "t": 40.75,
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "card",
+   "start": 8.74,
+   "end": 9.81,
+   "text": "THE END",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 10.0,
+   "end": 11.36,
+   "text": "*LIGHTS ON*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 11.55,
+   "end": 13.37,
+   "text": "*everyone leaves quietly*",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 14.73,
+   "end": 15.38,
+   "text": "CLAP.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 15.48,
+   "end": 16.16,
+   "text": "CLAP.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 16.25,
+   "end": 16.9,
+   "text": "CLAP.",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 18.17,
+   "end": 20.56,
+   "text": "ALONE.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 20.85,
+   "end": 22.12,
+   "text": "THE DIRECTOR: NOT HERE",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 22.31,
+   "end": 23.57,
+   "text": "THE ACTORS: NOT HERE",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 23.77,
+   "end": 25.49,
+   "text": "THE SCREEN: CAN'T HEAR YOU",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 25.68,
+   "end": 26.91,
+   "text": "NOBODY JOINS IN.",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 28.42,
+   "end": 29.68,
+   "text": "*CLAPS LOUDER*",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 30.46,
+   "end": 33.66,
+   "text": "OLD MAN: *clap*",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 34.05,
+   "end": 34.73,
+   "text": "A KID: *clap*",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 36.86,
+   "end": 38.42,
+   "text": "STANDING OVATION",
+   "y": 0.34
+  },
+  {
+   "type": "card",
+   "start": 39.0,
+   "end": 40.65,
+   "text": "THE FILM: TERRIBLE",
+   "y": 0.62
+  },
+  {
+   "type": "card",
+   "start": 42.01,
+   "end": 42.88,
+   "text": "LEGEND.",
+   "y": 0.34
+  }
+ ],
+ "sfx_events": [
+  {
+   "t": 8.74,
+   "kind": "ding"
+  },
+  {
+   "t": 10.0,
+   "kind": "boom"
+  },
+  {
+   "t": 14.73,
+   "kind": "pop"
+  },
+  {
+   "t": 15.48,
+   "kind": "pop"
+  },
+  {
+   "t": 16.25,
+   "kind": "pop"
+  },
+  {
+   "t": 18.17,
+   "kind": "sad"
+  },
+  {
+   "t": 23.77,
+   "kind": "sad"
+  },
+  {
+   "t": 28.42,
+   "kind": "pop"
+  },
+  {
+   "t": 28.81,
+   "kind": "pop"
+  },
+  {
+   "t": 30.46,
+   "kind": "pop"
+  },
+  {
+   "t": 34.05,
+   "kind": "pop"
+  },
+  {
+   "t": 35.5,
+   "kind": "cheer"
+  },
+  {
+   "t": 39.0,
+   "kind": "sad"
+  },
+  {
+   "t": 42.01,
+   "kind": "boom"
+  }
+ ],
+ "extra_dings": []
+}
