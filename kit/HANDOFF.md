@@ -120,3 +120,8 @@ Read this first, then kit/PLAN.md. User: David (Singapore, doesn't code, wants s
 - NEXT: Wed 25 Nov = pt6 of Friend, Group Chat, Cinema, Sibling (footer "Follow for Part 7"). PLAN.md ideas left: Friend "only texts when they need something"; Sibling "never gets in trouble". Or move to Public Transport/Supermarket/Student/Teacher as PLAN says.
 - Gemini download gotcha: some "Download full-sized image" clicks open a Windows Save-As box on David's PC (he has to press Save; he saved some as b.jpg / me.jpg). Always check Downloads with device_bash find -newermt and match by size/content. Gemini picture limit ~10 per window, then ~1h40m wait.
 - Built-in browser pane is narrow; set resize_window 1280x900 before clicking Gemini's menus (reset after), or click menu items via JS.
+
+## 22 Nov 2026 — pt6 finales done (series end)
+- pt6 finales of Friend / Group Chat / Cinema / Sibling were made from existing library pictures (kit/recipes/mk6.py), commit 12837f9.
+- They're scheduled for Wed 25 Nov at 09:00 / 13:00 / 17:00 / 21:00 SGT (blogId 8203057). Footer reads "Follow for more".
+- FROM THU 26 NOV: David is hands-on. Send ideas/scripts first (no voice before the script is OK'd), then the finished video. Schedule only after his OK. 2 videos a day. Reviews on Mon and Thu.
