@@ -9,3 +9,9 @@
 ## Music library (23 Nov 2026)
 - All music tracks live in kit/music/ (repo) and on David's PC at Music\Video Music Library (README.txt lists the mood of each one).
 - Reuse these first; they cost nothing. Only make a new track when no mood fits. Then save the new track to both places and add a line to README.txt.
+
+## Flow full-res download - SOLVED (26 Nov 2026)
+- Front the Flow tab (tabs_select), then read `[...document.querySelectorAll('img')]` srcs containing `/asb/`. Strip the `=s512-rw` ending and add `=s0` for the full image (896x1200 for 3:4).
+- Bundle all of a project's images into ONE download (fetch each `=s0`, write `IMG<i> <len>\n` + bytes into one Blob, click an <a download>). It lands in Downloads (sometimes as a .tmp name until saved). Stage it, then split with d1/unb.py logic.
+- Ask the Flow agent for many images in one message ("generate 7 separate images, 1 each... use the image you just made as the reference"). Don't navigate a tab while it's generating (that cancels it). Open a 2nd tab with tabs_create, NOT preview_start (that one reuses the current tab).
+- New video format from 26 Nov: no spoken title, joke in the first second, ~30 s, footer [] (no "Follow for part"), no CTA.
