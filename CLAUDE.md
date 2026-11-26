@@ -15,3 +15,4 @@
 - Bundle all of a project's images into ONE download (fetch each `=s0`, write `IMG<i> <len>\n` + bytes into one Blob, click an <a download>). It lands in Downloads (sometimes as a .tmp name until saved). Stage it, then split with d1/unb.py logic.
 - Ask the Flow agent for many images in one message ("generate 7 separate images, 1 each... use the image you just made as the reference"). Don't navigate a tab while it's generating (that cancels it). Open a 2nd tab with tabs_create, NOT preview_start (that one reuses the current tab).
 - New video format from 26 Nov: no spoken title, joke in the first second, ~30 s, footer [] (no "Follow for part"), no CTA.
+- 26 Nov upgrade (approved style to try): recipe keys "full": true (picture fills the whole 9:16 screen), "caps": "big" (3-word bold captions, current word yellow), "title_y": 230, footer []. Make Flow pictures at 9:16. Cards at y≈0.40 so they don't hit the captions (0.64). Example: kit/recipes/mk8_pt_sm.py

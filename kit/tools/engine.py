@@ -9,6 +9,7 @@ def mont(size, style="Bold"):
 SUB_F = ImageFont.truetype((glob.glob(G + "comicrelief/*Bold*.ttf") or glob.glob(G + "comicrelief/*.ttf"))[0], 52)
 BUB_F = ImageFont.truetype((glob.glob(G + "comicrelief/*Bold*.ttf") or glob.glob(G + "comicrelief/*.ttf"))[0], 34)
 TITLE_F, FOOT_F = mont(58, "Bold"), mont(44, "Bold")
+CAP_F = mont(96, "Black")
 PH_F, PH_SMALL, PH_NAME, PH_TINY = mont(25, "SemiBold"), mont(20, "Medium"), mont(25, "Bold"), mont(19, "SemiBold")
 PH_F2 = mont(21, "SemiBold"); IN_NAME, IN_SUBJ = mont(28, "Bold"), mont(22, "Medium")
 SX, SY, SW, SH = 0, 285, 1080, 1350
@@ -52,7 +53,8 @@ class Video:
         chunks, cur = [], []
         for w in self.words:
             cur.append(w)
-            if len(cur) >= 5 or (len(cur) >= 2 and w["text"][-1] in ".,?:!…\""):
+            mx = 3 if R.get("caps") == "big" else 5
+            if len(cur) >= mx or (len(cur) >= 1 and R.get("caps") == "big" and w["text"][-1] in ".,?:!…\"") or (len(cur) >= 2 and w["text"][-1] in ".,?:!…\""):
                 chunks.append(cur); cur = []
         if cur: chunks.append(cur)
         self.chunks = chunks
@@ -207,7 +209,7 @@ class Video:
                 dd.rounded_rectangle((cx - tw / 2 - 30, cy - 50, cx + tw / 2 + 30, cy + 50), 14, fill="white", outline="black", width=5)
                 if pop >= 1: dd.text((cx, cy), ov["text"], font=cf, fill="black", anchor="mm")
         c.paste(crop, (SX, SY)); d = ImageDraw.Draw(c)
-        lines = R["title"]; top = SY + 90
+        lines = R["title"]; top = R.get("title_y", SY + 90)
         for i, line in enumerate(lines):
             tw = d.textlength(line, font=TITLE_F); y = top + i * 80
             d.rounded_rectangle(((W - tw) / 2 - 22, y - 37, (W + tw) / 2 + 22, y + 39), 10, fill="white")
@@ -216,7 +218,21 @@ class Video:
             tw = d.textlength(line, font=FOOT_F); y = SY + SH - 230 + i * 66
             d.rounded_rectangle(((W - tw) / 2 - 18, y - 30, (W + tw) / 2 + 18, y + 32), 10, fill="white")
             d.text((W / 2, y), line, font=FOOT_F, fill="black", anchor="mm")
-        for chn in self.chunks:
+        for ci, chn in enumerate(self.chunks):
+            nxt = self.chunks[ci + 1][0]["start"] if ci + 1 < len(self.chunks) else 1e9
+            if R.get("caps") == "big":
+                if not (chn[0]["start"] - 0.05 <= t < min(nxt - 0.05, chn[-1]["end"] + 0.6)): continue
+                ws = [w["text"].replace("…", "").replace("...", "").strip('"').upper() for w in chn]
+                cur = max([i for i, w in enumerate(chn) if t >= w["start"] - 0.05] or [0])
+                pop = min(1, (t - chn[0]["start"] + 0.05) / 0.12); f = mont(int(96 * (0.85 + 0.15 * pop)), "Black")
+                sp = d.textlength(" ", font=f); widths = [d.textlength(x, font=f) for x in ws]
+                while sum(widths) + sp * (len(ws) - 1) > W - 80 and f.size > 50:
+                    f = mont(f.size - 6, "Black"); sp = d.textlength(" ", font=f); widths = [d.textlength(x, font=f) for x in ws]
+                x = (W - (sum(widths) + sp * (len(ws) - 1))) / 2; y = H * R.get("caps_y", 0.64)
+                for i, (word, wd) in enumerate(zip(ws, widths)):
+                    col = (255, 214, 0) if i == cur else "white"
+                    d.text((x, y), word, font=f, fill=col, anchor="lm", stroke_width=9, stroke_fill="black"); x += wd + sp
+                break
             if chn[0]["start"] - 0.05 <= t <= chn[-1]["end"] + 0.25:
                 txt = " ".join(w["text"] for w in chn).replace("…", "...").lower()
                 d.text((W / 2, SY + SH * 0.73), txt, font=SUB_F, fill="white", anchor="mm", stroke_width=5, stroke_fill="black")
@@ -315,7 +331,9 @@ class Video:
         ff.stdin.close(); ff.wait(); os.remove(out + ".sfx.wav")
 
 if __name__ == "__main__":
-    R = json.load(open(sys.argv[1])); v = Video(R)
+    R = json.load(open(sys.argv[1]))
+    if R.get("full"): SX, SY, SW, SH = 0, 0, W, H
+    v = Video(R)
     if len(sys.argv) > 2:
         for t in map(float, sys.argv[2:]): v.frame(t).save(f"check_{R['out']}_{t:05.1f}.jpg", quality=85)
     else:
