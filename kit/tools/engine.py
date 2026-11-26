@@ -178,13 +178,19 @@ class Video:
         sc = R["scenes"]; k = max(i for i, s in enumerate(sc) if t >= s["t"])
         s = sc[k]; s1 = sc[k + 1]["t"] if k + 1 < len(sc) else self.END
         p = (t - s["t"]) / max(0.01, s1 - s["t"])
-        z0, z1 = s.get("zoom", [1.0, 1.08]); z = z0 + (z1 - z0) * ease(p)
-        if t - s["t"] < 0.15 and k > 0: z *= 1.05 - 0.05 * (t - s["t"]) / 0.15
+        z0, z1 = s.get("zoom", [1.0, 1.08])
+        if s.get("punch"):
+            pp = min(1, (t - s["t"]) / 0.3); z = z0 + (z1 - z0) * (1 - (1 - pp) ** 3) + 0.02 * p
+        else: z = z0 + (z1 - z0) * ease(p)
+        if t - s["t"] < 0.15 and k > 0 and not s.get("punch"): z *= 1.05 - 0.05 * (t - s["t"]) / 0.15
         fx, fy = s.get("focus", [0.5, 0.5])
         if "pan" in s: fx = s["pan"][0] + (s["pan"][1] - s["pan"][0]) * ease(p)
         if "tilt" in s: fy = s["tilt"][0] + (s["tilt"][1] - s["tilt"][0]) * ease(p)
         im = self.imgs[s["img"]]; cw, ch = im.width / z, im.height / z
         cx = min(max(fx * im.width, cw / 2), im.width - cw / 2); cy = min(max(fy * im.height, ch / 2), im.height - ch / 2)
+        if s.get("shake"):
+            a = s["shake"] * max(0, 1 - (t - s["t"]) / 0.6) * im.width / 100
+            cx = min(max(cx + a * math.sin(t * 90), cw / 2), im.width - cw / 2); cy = min(max(cy + a * math.cos(t * 77), ch / 2), im.height - ch / 2)
         crop = im.crop((int(cx - cw / 2), int(cy - ch / 2), int(cx + cw / 2), int(cy + ch / 2))).resize((SW, SH), Image.LANCZOS)
         for ov in R.get("overlays", []):
             if not (ov["start"] <= t < ov["end"]): continue
