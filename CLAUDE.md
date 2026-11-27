@@ -20,3 +20,4 @@
 ## Posting plan (27 Nov 2026)
 - Public Transport + Supermarket series: 2 videos a day until both series end.
 - After that: What If Things goes to 1 video a day, and each video gets more time and polish. Still send script first, then the video, and only schedule after David's OK.
+- Free word timings (saves ~165 ElevenLabs credits per video): `python3 kit/tools/align.py voice.mp3 "exact script" words.json` instead of ElevenLabs transcription. Works when its phrase count matches the speech segments (it prints both).
